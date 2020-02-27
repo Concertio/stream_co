@@ -1,0 +1,28 @@
+import:
+  # can replace gcc version 4-8-0 with any of: 4-7-0, 4-9-0, 5-3-0, 7-1-0
+  optimizer.gcc.5-7-1:
+    include_knobs:
+      - param.*
+      - arch.*
+      - base.*
+    exclude_knobs:
+      - arch_arm_mfpu_neon
+      - param_sccvn_max_scc_size
+      - param_lto_partitions
+      - bool_wpa
+
+global_settings:
+  min_baseline_samples: 5
+  min_samples_per_config: 2
+
+domain:
+  common:
+    target: workload.target:max
+
+workload_settings:
+  workloads:
+    -
+      script: ./workload.sh
+      metrics:
+        t_metric: /tmp/t_metric
+  target: t_metric

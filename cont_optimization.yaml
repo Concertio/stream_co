@@ -1,0 +1,11 @@
+vcs:
+  type: git  # optional. git, mercurial... default to git
+  source: https://github.com/Concertio/stream_co.git
+  branch: perf_test  # optional. default to "perf_test"
+  triggers:
+    by: commit  # or schedule in the future. default to commit
+    tags: [perform-optimization, release-*]
+optimization:
+  configuration_file: knobs.yaml
+  max_cycle_time_minutes: 2
+  push_results_threshold: 2%
