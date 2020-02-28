@@ -10,11 +10,15 @@ FROM base
 # to be used for mounting git repo from local OS filesystem
 # and run the builds. prepare env for build tools
 
+# for convenience, fill in optimizer license here to have it available runtime
+ENV OPTIMIZER_LICENSE_KEY="<fill license key here>"
+
 ENV OPTIMIZER_HOME=/opt/concertio-optimizer/studio
 ENV SOURCE_FOLDER=${OPTIMIZER_HOME}/src
 
 # since optimizer checks who owns knobs.yaml and this container is root...:
 COPY knobs.yaml ${OPTIMIZER_HOME}/
+COPY entrypoint.sh ${OPTIMIZER_HOME}/
 
 # to be used for mounted source code folder
 RUN mkdir -p ${SOURCE_FOLDER} && \
@@ -22,4 +26,4 @@ RUN mkdir -p ${SOURCE_FOLDER} && \
 
 WORKDIR ${SOURCE_FOLDER}
 
-ENTRYPOINT [ "optimizer-studio", "--knobs=../knobs.yaml" ]
+ENTRYPOINT [ "./entrypoint.sh" ]
