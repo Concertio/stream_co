@@ -1,6 +1,6 @@
 import:
   # can replace gcc version 4-8-0 with any of: 4-7-0, 4-9-0, 5-3-0, 7-1-0
-  optimizer.gcc.5-7-1:
+  optimizer.gcc.7-1-0:
     include_knobs:
       - param.*
       - arch.*
