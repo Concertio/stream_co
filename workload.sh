@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 ### GET THE KNOBS
 
@@ -5,7 +6,7 @@
 # the env variable OPTIMIZER_HOME and SOURCE_FOLDER are expected to exist in the 'optimize_stream' container
 
 . ${OPTIMIZER_HOME}/studio-functions.bash
-cd ${SOURCE_FOLDER}
+cd "${SOURCE_FOLDER}"
 
 # call memory knobs function to get current knobs options as array
 get_memory_knobs > /dev/null
@@ -19,7 +20,7 @@ echo "${KNOB_VALUES[*]}" > flags.make
 BINARY_FILE=/tmp/stream
 
 CMD=make
-$CMD
+$CMD > /dev/null
 res=$?
 
 if [[ ! -f ${BINARY_FILE} ]]; then

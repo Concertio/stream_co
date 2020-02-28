@@ -10,6 +10,7 @@ import:
       - param_sccvn_max_scc_size
       - param_lto_partitions
       - bool_wpa
+      - param_graphite_max_bbs_per_function
 
 global_settings:
   min_baseline_samples: 5
@@ -17,12 +18,11 @@ global_settings:
 
 domain:
   common:
-    target: workload.target:max
+    metrics:
+      shell.t_metric:
+        sample_script: cat /tmp/t_metric
+        aggregated: false
 
-workload_settings:
-  workloads:
-    -
-      script: ./workload.sh > /dev/null 2>&1
-      metrics:
-        t_metric: /tmp/t_metric
-  target: t_metric
+    include_metrics: [shell.*]
+    plugins: [libshellplugin.so]
+    target: shell.t_metric:max

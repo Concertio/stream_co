@@ -18,7 +18,6 @@ ENV SOURCE_FOLDER=${OPTIMIZER_HOME}/src
 
 # since optimizer checks who owns knobs.yaml and this container is root...:
 COPY knobs.yaml ${OPTIMIZER_HOME}/
-COPY entrypoint.sh ${OPTIMIZER_HOME}/
 
 # to be used for mounted source code folder
 RUN mkdir -p ${SOURCE_FOLDER} && \
@@ -26,4 +25,5 @@ RUN mkdir -p ${SOURCE_FOLDER} && \
 
 WORKDIR ${SOURCE_FOLDER}
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/bin/bash", "-c" ]
+CMD ["./docker_run.sh" ]
