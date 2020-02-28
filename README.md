@@ -20,6 +20,28 @@ stream benchmark compiler flag mining Continuous Optimization Example
 
 In this demo, the workload script will expect the gcc flags to be found in `flags.make` file.
 
+The way the pipeline will work is:
+
+```text
+Commit your source code  ->  trigger build pipeline:
+
+  pipeline runs optimizer with the workload script  ->  
+  
+    start:
+
+        workload runs and:
+
+          updates `flags.make` with optimizer given values  ->
+
+            runs make (which loads flags from flags.make file)  ->
+
+              runs the binary and output performance to /tmp/t_metric file
+
+        optimizer reads from /tmp/metric and choses the next flags configruation  ->
+
+          optimizer: goto start
+```
+
 In real world applcations, you will want to first of all set your existing flags as Default options in optimizer-studio `knobs.yaml` file,
 
 and only then proceed to running optimizer.
