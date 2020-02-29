@@ -7,7 +7,7 @@ pipeline {
     triggers{ pollSCM('H/5 * * * *') }
 
     environment {
-        SOURCE_FOLDER = "/var/jenkins_home/workspace/stream build"
+        SOURCE_FOLDER = "/var/jenkins_home/workspace/stream"
     }
 
     // Build stages
