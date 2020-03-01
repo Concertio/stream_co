@@ -99,4 +99,6 @@ Good Luck Optimizing!
 
 ## CI Tool Pipeline integration
 
-TODO: add Jenkins pipeline `JenkinsFile` and a `docker-compose.yaml` files to this repo, to orchestrate a full demo Jenkins CO pipeline example.
+Jenkins pipeline `JenkinsFile` is available here to demonstrate the optimization pipeline within Jenkins CI tool in a declarative pipeline.
+It requires access to Concertio docker Registry.
+Contact [Concertio](https://concertio.com/contact/) for details.
