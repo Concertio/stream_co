@@ -28,7 +28,9 @@ pipeline {
                     def results = readJSON file: "${SOURCE_FOLDER}/optimizer_report.json"
                     echo "improvement is: " + results.metric.improvement + "%"
 
-                    if (results.metric.improvement > 2) {
+                    def opt_settings = readYaml file: "${SOURCE_FOLDER}/cont_optimization.yaml"
+
+                    if (results.metric.improvement > opt_settings.optimization.push_results_threshold) {
                         env.COMMIT_OPTIMIZATION = "true"
                     }
                 }
