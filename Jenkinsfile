@@ -50,15 +50,22 @@ pipeline {
                     echo improvement_line
 
                     if (results.metric.improvement > opt_settings.optimization.push_results_threshold) {
-                        echo "Commit flags.make back to repo! for next cycle, but only if changed"
+                        // check if knobs.yaml needs an update (tempo sulution until optimizer shall support Empty reports)
+                        def knobs = readYaml file: "${SOURCE_FOLDER}/knobs.yaml"
+
+                        if (! knobs.domain.common.containsKey("baseline_config")) {
+                            // we need to update knobs.yaml with new baseline (only once)
+                            knobs.domain.common.baseline_config = "./optimizer_report.json"
+                            writeYaml file: "${SOURCE_FOLDER}/knobs.yaml", data: knobs, overwrite: true
+                        }
+
+                        echo "Commit flags.mak, json report and knobs.yaml back to repo"
                         sh 'pwd; git branch; git status'
 
                         withCredentials([usernamePassword(credentialsId: 'github-userpass', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
-                            sh label: 'commit the new conf file to perf branch', returnStdout: true, script: 'git commit -m "optimized compilation flags. ' + improvement_line + '" ./flags.make'
+                            sh label: 'commit the new conf files to perf branch', returnStdout: true, script: 'git commit -am "optimized compilation flags. ' + improvement_line + '"'
                             sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Concertio/stream_co HEAD:dev'
-                        }
-                            
-                        // sh label: 'push flags to remote', returnStdout: true, script: "git push --set-upstream origin ${env.OPTIMIZER_BRANCH_NAME}"
+                        }                           
                     }
                 }
             }
