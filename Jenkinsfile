@@ -7,7 +7,7 @@ pipeline {
     triggers{ pollSCM('H/5 * * * *') }
 
     environment {
-        SOURCE_FOLDER = "/var/jenkins_home/workspace/streamtest"
+        SOURCE_FOLDER = "/var/jenkins_home/workspace/stream"
         OPTIMIZER_MAX_MINUTES = 2
     }
 
