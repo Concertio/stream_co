@@ -68,7 +68,7 @@ pipeline {
 
                         withCredentials([usernamePassword(credentialsId: 'github-userpass', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                             sh label: 'commit the new conf files to ${OPTIMIZER_BRANCH_NAME} branch', returnStdout: true, script: 'git commit -am "optimized compilation flags. ' + improvement_line + '"'
-                            sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@${GIT_URL} HEAD:dev'
+                            sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Concertio/stream_co HEAD:dev'
                         }                           
                     }
                 }
