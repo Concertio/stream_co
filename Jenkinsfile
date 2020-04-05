@@ -8,10 +8,10 @@ pipeline {
 
     environment {
         SOURCE_FOLDER = "/var/jenkins_home/workspace/stream"
-        OPTIMIZER_MAX_MINUTES = 2
+        OPTIMIZER_MAX_MINUTES = 2    // setting a default
     }
 
-    // Build stages
+    // build stages
     stages {
         stage('Run Optimizer Studio Experiment') {
             // optional: only in certain pipeline conditions like release do we opitmize...
@@ -25,7 +25,7 @@ pipeline {
                 // and... action!
                 script {
                     // checkout perf branch
-                    git url: "https://github.com/Concertio/stream_co",
+                    git url: env.GIT_URL,
                         credentialsId: 'github-userpass',
                         branch: 'dev',
                         name: 'origin'
@@ -36,7 +36,11 @@ pipeline {
 
                     // read cont_optimization settings
                     def opt_settings = readYaml file: "${SOURCE_FOLDER}/cont_optimization.yaml"
+
                     env.OPTIMIZER_BRANCH_NAME = opt_settings.vcs.branch
+                    env.FLAGS_RESULT_VCS_FILENAME =  opt_settings.result.flags_filename
+                    env.JSON_RESULT_VCS_FILENAME =  opt_settings.result.json_filename
+                    env.OPTIMIZER_MAX_MINUTES = opt_settings.max_cycle_time_minutes
 
                     // run optimizer experiment
                     sh label: 'Run Optimizer', returnStdout: true, script: "./docker_run.sh"
@@ -49,7 +53,7 @@ pipeline {
                     def improvement_line = "improvement: " + results.metric.improvement + "%"
                     echo improvement_line
 
-                    if (results.metric.improvement > opt_settings.optimization.push_results_threshold) {
+                    if (results.metric.improvement > opt_settings.push_results_threshold) {
                         // check if knobs.yaml needs an update (tempo sulution until optimizer shall support Empty reports)
                         def knobs = readYaml file: "${SOURCE_FOLDER}/knobs.yaml"
 
@@ -63,8 +67,8 @@ pipeline {
                         sh 'pwd; git branch; git status'
 
                         withCredentials([usernamePassword(credentialsId: 'github-userpass', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
-                            sh label: 'commit the new conf files to perf branch', returnStdout: true, script: 'git commit -am "optimized compilation flags. ' + improvement_line + '"'
-                            sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Concertio/stream_co HEAD:dev'
+                            sh label: 'commit the new conf files to ${OPTIMIZER_BRANCH_NAME} branch', returnStdout: true, script: 'git commit -am "optimized compilation flags. ' + improvement_line + '"'
+                            sh 'git push https://${GIT_USERNAME}:${GIT_PASSWORD}@${GIT_URL} HEAD:dev'
                         }                           
                     }
                 }

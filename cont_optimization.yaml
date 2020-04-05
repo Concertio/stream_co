@@ -1,8 +1,9 @@
 vcs:
-  type: git  # optional. git, mercurial... default to git
-  source: https://github.com/Concertio/stream_co.git
-  branch: perf_test  # optional. default to "perf_test"
-optimization:
-  configuration_file: knobs.yaml
-  max_cycle_time_minutes: 2
-  push_results_threshold: 2 # measured in %
+  branch: dev
+max_cycle_time_minutes: 2
+push_results_threshold: 2 # measured in %
+build_command: make # for future implementation
+workload_command: workload.sh # for future implementation
+result:
+  flags_filename: flags.make
+  json_filename: optimizer_result.json
