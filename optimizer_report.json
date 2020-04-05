@@ -1,0 +1,3836 @@
+{
+  "bestKnobConfig": [
+    {
+      "isBaseline": false,
+      "name": "param_max_fsm_thread_paths",
+      "value": "--param max-fsm-thread-paths=119056"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_fsm_thread_length",
+      "value": "--param max-fsm-thread-length=357142"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_goto_duplication_insns",
+      "value": "--param max-goto-duplication-insns=3"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_grow_copy_bb_insns",
+      "value": "--param max-grow-copy-bb-insns=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_tracer_max_code_growth",
+      "value": "--param tracer-max-code-growth=31"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_tracer_min_branch_ratio",
+      "value": "--param tracer-min-branch-ratio=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_align_threshold",
+      "value": "--param align-threshold=86"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_peeled_insns",
+      "value": "--param max-peeled-insns=192"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_loop_hint_bonus",
+      "value": "--param ipa-cp-loop-hint-bonus=27"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_fsm_thread_path_insns",
+      "value": "--param max-fsm-thread-path-insns=976189"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_hot_bb_frequency_fraction",
+      "value": "--param hot-bb-frequency-fraction=380"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_hot_bb_count_ws_permille",
+      "value": "--param hot-bb-count-ws-permille=552"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_sched_region_insns",
+      "value": "--param max-sched-region-insns=53"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sms_max_ii_factor",
+      "value": "--param sms-max-ii-factor=49"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_iterations_to_track",
+      "value": "--param max-iterations-to-track=306"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_once_peeled_insns",
+      "value": "--param max-once-peeled-insns=574"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_completely_peeled_insns",
+      "value": "--param max-completely-peeled-insns=226"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_peel_times",
+      "value": "--param max-peel-times=8"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_large_function_growth",
+      "value": "--param large-function-growth=148"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sink_frequency_threshold",
+      "value": "--param sink-frequency-threshold=87"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_unroll_times",
+      "value": "--param max-unroll-times=2"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_builtin_expect_probability",
+      "value": "--param builtin-expect-probability=50"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_unrolled_insns",
+      "value": "--param max-unrolled-insns=194"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_partial_antic_length",
+      "value": "--param max-partial-antic-length=119"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_sra_ptr_growth_factor",
+      "value": "--param ipa-sra-ptr-growth-factor=2"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sched_state_edge_prob_cutoff",
+      "value": "--param sched-state-edge-prob-cutoff=59"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_vartrack_size",
+      "value": "--param max-vartrack-size=31336405"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_iv_consider_all_candidates_bound",
+      "value": "--param iv-consider-all-candidates-bound=57"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_gcse_after_reload_critical_fraction",
+      "value": "--param gcse-after-reload-critical-fraction=6"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_gcse_after_reload_partial_fraction",
+      "value": "--param gcse-after-reload-partial-fraction=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_unswitch_level",
+      "value": "--param max-unswitch-level=5"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_recursive_depth",
+      "value": "--param max-inline-recursive-depth=5"
+    },
+    {
+      "isBaseline": false,
+      "name": "param__fsched_stalled_insns_dep",
+      "value": "-fsched-stalled-insns-dep=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sms_min_sc",
+      "value": "--param sms-min-sc=3"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_insns_recursive_auto",
+      "value": "--param max-inline-insns-recursive-auto=607"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_inline_min_speedup",
+      "value": "--param inline-min-speedup=9"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_large_stack_frame",
+      "value": "--param large-stack-frame=281"
+    },
+    {
+      "isBaseline": true,
+      "name": "param__finline_limit",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_iv_always_prune_cand_set_bound",
+      "value": "--param iv-always-prune-cand-set-bound=9"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_unswitch_insns",
+      "value": "--param max-unswitch-insns=21"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_predicted_iterations",
+      "value": "--param max-predicted-iterations=173"
+    },
+    {
+      "isBaseline": false,
+      "name": "param__ftree_parallelize_loops",
+      "value": "-ftree-parallelize-loops=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_gcse_unrestricted_cost",
+      "value": "--param gcse-unrestricted-cost=5"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_loop_max_datarefs_for_datadeps",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_tm_max_aggregate_size",
+      "value": "--param tm-max-aggregate-size=3"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sms_loop_average_count_threshold",
+      "value": "--param sms-loop-average-count-threshold=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_average_unrolled_insns",
+      "value": "--param max-average-unrolled-insns=146"
+    },
+    {
+      "isBaseline": false,
+      "name": "param__fsched_stalled_insns",
+      "value": "-fsched-stalled-insns=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_partial_inlining_entry_probability",
+      "value": "--param partial-inlining-entry-probability=35"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_min_insn_to_prefetch_ratio",
+      "value": "--param min-insn-to-prefetch-ratio=10"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_predictable_branch_outcome",
+      "value": "--param predictable-branch-outcome=21"
+    },
+    {
+      "isBaseline": false,
+      "name": "param__falign_functions",
+      "value": "-falign-functions=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_insns_single",
+      "value": "--param max-inline-insns-single=84"
+    },
+    {
+      "isBaseline": false,
+      "name": "base_opt",
+      "value": "-O1"
+    },
+    {
+      "isBaseline": true,
+      "name": "param__falign_jumps",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_large_function_insns",
+      "value": "--param large-function-insns=1772"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_crossjump_edges",
+      "value": "--param max-crossjump-edges=149"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_tracked_strlens",
+      "value": "--param max-tracked-strlens=3760"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_peel_branches",
+      "value": "--param max-peel-branches=5"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_sched_region_blocks",
+      "value": "--param max-sched-region-blocks=15"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_gcse_insertion_ratio",
+      "value": "--param max-gcse-insertion-ratio=39"
+    },
+    {
+      "isBaseline": false,
+      "name": "param__falign_labels",
+      "value": "-falign-labels=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_comdat_sharing_probability",
+      "value": "--param comdat-sharing-probability=35"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_prefetch_latency",
+      "value": "--param prefetch-latency=124"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_single_call_penalty",
+      "value": "--param ipa-cp-single-call-penalty=39"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_min_crossjump_insns",
+      "value": "--param min-crossjump-insns=9"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_min_inline_recursive_probability",
+      "value": "--param min-inline-recursive-probability=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_completely_peel_times",
+      "value": "--param max-completely-peel-times=4"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_use_canonical_types",
+      "value": "--param use-canonical-types=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_delay_slot_insn_search",
+      "value": "--param max-delay-slot-insn-search=33"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_selsched_max_lookahead",
+      "value": "--param selsched-max-lookahead=100"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_large_stack_frame_growth",
+      "value": "--param large-stack-frame-growth=75"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ira_loop_reserved_regs",
+      "value": "--param ira-loop-reserved-regs=2"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_slsr_cand_scan",
+      "value": "--param max-slsr-cand-scan=761909"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_sms_dfa_history",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_asan_globals",
+      "value": "--param asan-globals=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_modulo_backtrack_attempts",
+      "value": "--param max-modulo-backtrack-attempts=51"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_lim_expensive",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_array_index_hint_bonus",
+      "value": "--param ipa-cp-array-index-hint-bonus=20"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_min_vect_loop_bound",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_jump_thread_duplication_stmts",
+      "value": "--param max-jump-thread-duplication-stmts=14"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_gcse_cost_distance_ratio",
+      "value": "--param gcse-cost-distance-ratio=18"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_max_sched_extend_regions_iters",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_iterations_computation_cost",
+      "value": "--param max-iterations-computation-cost=16"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipcp_unit_growth",
+      "value": "--param ipcp-unit-growth=13"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_cse_path_length",
+      "value": "--param max-cse-path-length=1"
+    },
+    {
+      "isBaseline": true,
+      "name": "arch_mtune_native",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_delay_slot_live_search",
+      "value": "--param max-delay-slot-live-search=99"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_tracer_min_branch_probability",
+      "value": "--param tracer-min-branch-probability=87"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_completely_peel_loop_nest_depth",
+      "value": "--param max-completely-peel-loop-nest-depth=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_prefetch_min_insn_to_mem_ratio",
+      "value": "--param prefetch-min-insn-to-mem-ratio=5"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_large_unit_insns",
+      "value": "--param large-unit-insns=9931"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sra_max_scalarization_size_Osize",
+      "value": "--param sra-max-scalarization-size-Osize=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_insns_auto",
+      "value": "--param max-inline-insns-auto=62"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_min_spec_prob",
+      "value": "--param min-spec-prob=65"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_inline_unit_growth",
+      "value": "--param inline-unit-growth=8"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ssp_buffer_size",
+      "value": "--param ssp-buffer-size=4"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_variable_expansions_in_unroller",
+      "value": "--param max-variable-expansions-in-unroller=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_early_inlining_insns",
+      "value": "--param early-inlining-insns=27"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_iv_max_considered_uses",
+      "value": "--param iv-max-considered-uses=177"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_scev_max_expr_size",
+      "value": "--param scev-max-expr-size=112"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_scev_max_expr_complexity",
+      "value": "--param scev-max-expr-complexity=4"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_slp_max_insns_in_bb",
+      "value": "--param slp-max-insns-in-bb=706"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_vect_max_version_for_alignment_checks",
+      "value": "--param vect-max-version-for-alignment-checks=9"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_vect_max_version_for_alias_checks",
+      "value": "--param vect-max-version-for-alias-checks=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_selsched_insns_to_rename",
+      "value": "--param selsched-insns-to-rename=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_l1_cache_size",
+      "value": "--param l1-cache-size=52"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_vect_max_peeling_for_alignment",
+      "value": "--param vect-max-peeling-for-alignment=63"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_cselib_memory_locations",
+      "value": "--param max-cselib-memory-locations=244"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_last_value_rtl",
+      "value": "--param max-last-value-rtl=19403"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_reload_search_insns",
+      "value": "--param max-reload-search-insns=173"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_max_pipeline_region_blocks",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_pipeline_region_insns",
+      "value": "--param max-pipeline-region-insns=367"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_align_loop_iterations",
+      "value": "--param align-loop-iterations=8"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_sched_insn_conflict_delay",
+      "value": "--param max-sched-insn-conflict-delay=1"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_max_fields_for_field_sensitive",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_cse_insns",
+      "value": "--param max-cse-insns=385"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_selsched_max_sched_times",
+      "value": "--param selsched-max-sched-times=2"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_chkp_max_ctor_size",
+      "value": "--param chkp-max-ctor-size=4360"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_sched_mem_true_dep_cost",
+      "value": " "
+    },
+    {
+      "isBaseline": true,
+      "name": "param__falign_loops",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_recursive_depth_auto",
+      "value": "--param max-inline-recursive-depth-auto=15"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_combine_insns",
+      "value": "--param max-combine-insns=4"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_integer_share_limit",
+      "value": "--param integer-share-limit=265"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_l1_cache_line_size",
+      "value": "--param l1-cache-line-size=7"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_hoist_depth",
+      "value": "--param max-hoist-depth=50"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_uninit_control_dep_attempts",
+      "value": "--param uninit-control-dep-attempts=1847"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_inline_insns_recursive",
+      "value": "--param max-inline-insns-recursive=94"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_min_size_for_stack_sharing",
+      "value": "--param min-size-for-stack-sharing=37"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_sched_ready_insns",
+      "value": "--param max-sched-ready-insns=89"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_dse_active_local_stores",
+      "value": "--param max-dse-active-local-stores=2229"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_unlikely_bb_count_fraction",
+      "value": "--param unlikely-bb-count-fraction=9684"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_asan_instrument_reads",
+      "value": "--param asan-instrument-reads=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_l2_cache_size",
+      "value": "--param l2-cache-size=752"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_graphite_max_nb_scop_params",
+      "value": "--param graphite-max-nb-scop-params=14"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ira_max_loops_num",
+      "value": "--param ira-max-loops-num=106"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_vartrack_expr_depth",
+      "value": "--param max-vartrack-expr-depth=21"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ira_max_conflict_table_size",
+      "value": "--param ira-max-conflict-table-size=1317"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_switch_conversion_max_branch_ratio",
+      "value": "--param switch-conversion-max-branch-ratio=16"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_pending_list_length",
+      "value": "--param max-pending-list-length=59"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_asan_instrument_writes",
+      "value": "--param asan-instrument-writes=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sccvn_max_alias_queries_per_access",
+      "value": "--param sccvn-max-alias-queries-per-access=609"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_lra_max_considered_reload_pseudos",
+      "value": "--param lra-max-considered-reload-pseudos=962"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_lra_inheritance_ebb_probability_cutoff",
+      "value": "--param lra-inheritance-ebb-probability-cutoff=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_loop_block_tile_size",
+      "value": "--param loop-block-tile-size=0"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_loop_invariant_max_bbs_in_loop",
+      "value": "--param loop-invariant-max-bbs-in-loop=12630"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_vartrack_reverse_op_size",
+      "value": "--param max-vartrack-reverse-op-size=25"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_early_inliner_iterations",
+      "value": "--param max-early-inliner-iterations=0"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_sra_max_scalarization_size_Ospeed",
+      "value": " "
+    },
+    {
+      "isBaseline": true,
+      "name": "param_tree_reassoc_width",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_value_list_size",
+      "value": "--param ipa-cp-value-list-size=5"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_allow_store_data_races",
+      "value": "--param allow-store-data-races=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_eval_threshold",
+      "value": "--param ipa-cp-eval-threshold=122"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_cp_recursion_penalty",
+      "value": "--param ipa-cp-recursion-penalty=76"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_tail_merge_comparisons",
+      "value": "--param max-tail-merge-comparisons=17"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_max_agg_items",
+      "value": "--param ipa-max-agg-items=23"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sched_spec_prob_cutoff",
+      "value": "--param sched-spec-prob-cutoff=7"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_simultaneous_prefetches",
+      "value": "--param simultaneous-prefetches=6"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_ipa_max_aa_steps",
+      "value": "--param ipa-max-aa-steps=27141"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_lto_min_partition",
+      "value": "--param lto-min-partition=149"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_tracer_min_branch_probability_feedback",
+      "value": "--param tracer-min-branch-probability-feedback=68"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_cxx_max_namespaces_for_diagnostic_help",
+      "value": "--param cxx-max-namespaces-for-diagnostic-help=911"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_stores_to_sink",
+      "value": "--param max-stores-to-sink=2"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_case_values_threshold",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_max_tail_merge_iterations",
+      "value": "--param max-tail-merge-iterations=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_sched_pressure_algorithm",
+      "value": "--param sched-pressure-algorithm=1"
+    },
+    {
+      "isBaseline": false,
+      "name": "param_asan_stack",
+      "value": "--param asan-stack=0"
+    },
+    {
+      "isBaseline": true,
+      "name": "param_asan_memintrin",
+      "value": " "
+    },
+    {
+      "isBaseline": false,
+      "name": "param_asan_use_after_return",
+      "value": "--param asan-use-after-return=1"
+    }
+  ],
+  "metric": {
+    "anticipated_target": 12191.85,
+    "baseline_target": 4373.06,
+    "improvement": 178.79448258199062
+  },
+  "numExplored": 26,
+  "numKnobCombinations": 1.7976931348623157e+308,
+  "numKnobs": 169,
+  "numSamplesInvalid": 0,
+  "numSamplesValid": 56,
+  "progress": 0,
+  "topKnobConfigs": [
+    [
+      {
+        "name": "param_max_fsm_thread_paths",
+        "value": "--param max-fsm-thread-paths=119056"
+      },
+      {
+        "name": "param_asan_use_after_return",
+        "value": "--param asan-use-after-return=1"
+      },
+      {
+        "name": "param_asan_stack",
+        "value": "--param asan-stack=0"
+      },
+      {
+        "name": "param_sched_pressure_algorithm",
+        "value": "--param sched-pressure-algorithm=1"
+      },
+      {
+        "name": "param_max_tail_merge_iterations",
+        "value": "--param max-tail-merge-iterations=1"
+      },
+      {
+        "name": "param_max_stores_to_sink",
+        "value": "--param max-stores-to-sink=2"
+      },
+      {
+        "name": "param_cxx_max_namespaces_for_diagnostic_help",
+        "value": "--param cxx-max-namespaces-for-diagnostic-help=911"
+      },
+      {
+        "name": "param_lto_min_partition",
+        "value": "--param lto-min-partition=149"
+      },
+      {
+        "name": "param_max_fsm_thread_path_insns",
+        "value": "--param max-fsm-thread-path-insns=976189"
+      },
+      {
+        "name": "param_ipa_max_aa_steps",
+        "value": "--param ipa-max-aa-steps=27141"
+      },
+      {
+        "name": "param_ipa_max_agg_items",
+        "value": "--param ipa-max-agg-items=23"
+      },
+      {
+        "name": "param_max_tail_merge_comparisons",
+        "value": "--param max-tail-merge-comparisons=17"
+      },
+      {
+        "name": "param_ipa_cp_recursion_penalty",
+        "value": "--param ipa-cp-recursion-penalty=76"
+      },
+      {
+        "name": "param_ipa_cp_eval_threshold",
+        "value": "--param ipa-cp-eval-threshold=122"
+      },
+      {
+        "name": "param_allow_store_data_races",
+        "value": "--param allow-store-data-races=1"
+      },
+      {
+        "name": "param_ipa_cp_value_list_size",
+        "value": "--param ipa-cp-value-list-size=5"
+      },
+      {
+        "name": "param_max_vartrack_reverse_op_size",
+        "value": "--param max-vartrack-reverse-op-size=25"
+      },
+      {
+        "name": "param_loop_invariant_max_bbs_in_loop",
+        "value": "--param loop-invariant-max-bbs-in-loop=12630"
+      },
+      {
+        "name": "param_loop_block_tile_size",
+        "value": "--param loop-block-tile-size=0"
+      },
+      {
+        "name": "param_lra_inheritance_ebb_probability_cutoff",
+        "value": "--param lra-inheritance-ebb-probability-cutoff=0"
+      },
+      {
+        "name": "param_lra_max_considered_reload_pseudos",
+        "value": "--param lra-max-considered-reload-pseudos=962"
+      },
+      {
+        "name": "param_asan_instrument_writes",
+        "value": "--param asan-instrument-writes=0"
+      },
+      {
+        "name": "param_switch_conversion_max_branch_ratio",
+        "value": "--param switch-conversion-max-branch-ratio=16"
+      },
+      {
+        "name": "param_ira_max_conflict_table_size",
+        "value": "--param ira-max-conflict-table-size=1317"
+      },
+      {
+        "name": "param_ira_max_loops_num",
+        "value": "--param ira-max-loops-num=106"
+      },
+      {
+        "name": "param_sccvn_max_alias_queries_per_access",
+        "value": "--param sccvn-max-alias-queries-per-access=609"
+      },
+      {
+        "name": "param_graphite_max_nb_scop_params",
+        "value": "--param graphite-max-nb-scop-params=14"
+      },
+      {
+        "name": "param_l2_cache_size",
+        "value": "--param l2-cache-size=752"
+      },
+      {
+        "name": "param_simultaneous_prefetches",
+        "value": "--param simultaneous-prefetches=6"
+      },
+      {
+        "name": "param_max_dse_active_local_stores",
+        "value": "--param max-dse-active-local-stores=2229"
+      },
+      {
+        "name": "param_max_sched_ready_insns",
+        "value": "--param max-sched-ready-insns=89"
+      },
+      {
+        "name": "param_max_jump_thread_duplication_stmts",
+        "value": "--param max-jump-thread-duplication-stmts=14"
+      },
+      {
+        "name": "param_min_size_for_stack_sharing",
+        "value": "--param min-size-for-stack-sharing=37"
+      },
+      {
+        "name": "param_uninit_control_dep_attempts",
+        "value": "--param uninit-control-dep-attempts=1847"
+      },
+      {
+        "name": "param_l1_cache_line_size",
+        "value": "--param l1-cache-line-size=7"
+      },
+      {
+        "name": "param_integer_share_limit",
+        "value": "--param integer-share-limit=265"
+      },
+      {
+        "name": "param_max_combine_insns",
+        "value": "--param max-combine-insns=4"
+      },
+      {
+        "name": "param_selsched_max_sched_times",
+        "value": "--param selsched-max-sched-times=2"
+      },
+      {
+        "name": "param_max_sched_insn_conflict_delay",
+        "value": "--param max-sched-insn-conflict-delay=1"
+      },
+      {
+        "name": "param_max_pipeline_region_insns",
+        "value": "--param max-pipeline-region-insns=367"
+      },
+      {
+        "name": "param_max_reload_search_insns",
+        "value": "--param max-reload-search-insns=173"
+      },
+      {
+        "name": "param_max_last_value_rtl",
+        "value": "--param max-last-value-rtl=19403"
+      },
+      {
+        "name": "param_max_cselib_memory_locations",
+        "value": "--param max-cselib-memory-locations=244"
+      },
+      {
+        "name": "param_vect_max_peeling_for_alignment",
+        "value": "--param vect-max-peeling-for-alignment=63"
+      },
+      {
+        "name": "param_gcse_cost_distance_ratio",
+        "value": "--param gcse-cost-distance-ratio=18"
+      },
+      {
+        "name": "param_ipcp_unit_growth",
+        "value": "--param ipcp-unit-growth=13"
+      },
+      {
+        "name": "param_gcse_after_reload_partial_fraction",
+        "value": "--param gcse-after-reload-partial-fraction=0"
+      },
+      {
+        "name": "param_max_gcse_insertion_ratio",
+        "value": "--param max-gcse-insertion-ratio=39"
+      },
+      {
+        "name": "param_max_fsm_thread_length",
+        "value": "--param max-fsm-thread-length=357142"
+      },
+      {
+        "name": "param_max_sched_region_blocks",
+        "value": "--param max-sched-region-blocks=15"
+      },
+      {
+        "name": "param_max_peel_branches",
+        "value": "--param max-peel-branches=5"
+      },
+      {
+        "name": "param_early_inlining_insns",
+        "value": "--param early-inlining-insns=27"
+      },
+      {
+        "name": "param_max_variable_expansions_in_unroller",
+        "value": "--param max-variable-expansions-in-unroller=0"
+      },
+      {
+        "name": "param_ssp_buffer_size",
+        "value": "--param ssp-buffer-size=4"
+      },
+      {
+        "name": "param_inline_unit_growth",
+        "value": "--param inline-unit-growth=8"
+      },
+      {
+        "name": "param_min_spec_prob",
+        "value": "--param min-spec-prob=65"
+      },
+      {
+        "name": "param_max_inline_insns_auto",
+        "value": "--param max-inline-insns-auto=62"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Osize",
+        "value": "--param sra-max-scalarization-size-Osize=0"
+      },
+      {
+        "name": "param_large_unit_insns",
+        "value": "--param large-unit-insns=9931"
+      },
+      {
+        "name": "param_prefetch_min_insn_to_mem_ratio",
+        "value": "--param prefetch-min-insn-to-mem-ratio=5"
+      },
+      {
+        "name": "param_max_completely_peel_loop_nest_depth",
+        "value": "--param max-completely-peel-loop-nest-depth=1"
+      },
+      {
+        "name": "param_max_vartrack_size",
+        "value": "--param max-vartrack-size=31336405"
+      },
+      {
+        "name": "param_gcse_unrestricted_cost",
+        "value": "--param gcse-unrestricted-cost=5"
+      },
+      {
+        "name": "param_scev_max_expr_size",
+        "value": "--param scev-max-expr-size=112"
+      },
+      {
+        "name": "param_vect_max_version_for_alignment_checks",
+        "value": "--param vect-max-version-for-alignment-checks=9"
+      },
+      {
+        "name": "param_tracer_min_branch_probability",
+        "value": "--param tracer-min-branch-probability=87"
+      },
+      {
+        "name": "param_max_pending_list_length",
+        "value": "--param max-pending-list-length=59"
+      },
+      {
+        "name": "param_max_crossjump_edges",
+        "value": "--param max-crossjump-edges=149"
+      },
+      {
+        "name": "param_max_delay_slot_live_search",
+        "value": "--param max-delay-slot-live-search=99"
+      },
+      {
+        "name": "param_max_cse_path_length",
+        "value": "--param max-cse-path-length=1"
+      },
+      {
+        "name": "param_gcse_after_reload_critical_fraction",
+        "value": "--param gcse-after-reload-critical-fraction=6"
+      },
+      {
+        "name": "param_iv_consider_all_candidates_bound",
+        "value": "--param iv-consider-all-candidates-bound=57"
+      },
+      {
+        "name": "param_tm_max_aggregate_size",
+        "value": "--param tm-max-aggregate-size=3"
+      },
+      {
+        "name": "param__ftree_parallelize_loops",
+        "value": "-ftree-parallelize-loops=0"
+      },
+      {
+        "name": "param_max_vartrack_expr_depth",
+        "value": "--param max-vartrack-expr-depth=21"
+      },
+      {
+        "name": "param_large_function_insns",
+        "value": "--param large-function-insns=1772"
+      },
+      {
+        "name": "param_min_insn_to_prefetch_ratio",
+        "value": "--param min-insn-to-prefetch-ratio=10"
+      },
+      {
+        "name": "param__fsched_stalled_insns",
+        "value": "-fsched-stalled-insns=0"
+      },
+      {
+        "name": "param_max_average_unrolled_insns",
+        "value": "--param max-average-unrolled-insns=146"
+      },
+      {
+        "name": "param_sms_loop_average_count_threshold",
+        "value": "--param sms-loop-average-count-threshold=0"
+      },
+      {
+        "name": "param_partial_inlining_entry_probability",
+        "value": "--param partial-inlining-entry-probability=35"
+      },
+      {
+        "name": "param_max_unswitch_insns",
+        "value": "--param max-unswitch-insns=21"
+      },
+      {
+        "name": "param_max_predicted_iterations",
+        "value": "--param max-predicted-iterations=173"
+      },
+      {
+        "name": "param_predictable_branch_outcome",
+        "value": "--param predictable-branch-outcome=21"
+      },
+      {
+        "name": "param_ipa_cp_single_call_penalty",
+        "value": "--param ipa-cp-single-call-penalty=39"
+      },
+      {
+        "name": "param_prefetch_latency",
+        "value": "--param prefetch-latency=124"
+      },
+      {
+        "name": "param_comdat_sharing_probability",
+        "value": "--param comdat-sharing-probability=35"
+      },
+      {
+        "name": "param__falign_labels",
+        "value": "-falign-labels=0"
+      },
+      {
+        "name": "param_min_crossjump_insns",
+        "value": "--param min-crossjump-insns=9"
+      },
+      {
+        "name": "param_max_inline_recursive_depth_auto",
+        "value": "--param max-inline-recursive-depth-auto=15"
+      },
+      {
+        "name": "param_min_inline_recursive_probability",
+        "value": "--param min-inline-recursive-probability=0"
+      },
+      {
+        "name": "param_large_stack_frame_growth",
+        "value": "--param large-stack-frame-growth=75"
+      },
+      {
+        "name": "param_asan_globals",
+        "value": "--param asan-globals=0"
+      },
+      {
+        "name": "param_max_slsr_cand_scan",
+        "value": "--param max-slsr-cand-scan=761909"
+      },
+      {
+        "name": "param_max_early_inliner_iterations",
+        "value": "--param max-early-inliner-iterations=0"
+      },
+      {
+        "name": "base_opt",
+        "value": "-O1"
+      },
+      {
+        "name": "param__falign_functions",
+        "value": "-falign-functions=0"
+      },
+      {
+        "name": "param_ipa_cp_array_index_hint_bonus",
+        "value": "--param ipa-cp-array-index-hint-bonus=20"
+      },
+      {
+        "name": "param_sched_spec_prob_cutoff",
+        "value": "--param sched-spec-prob-cutoff=7"
+      },
+      {
+        "name": "param_max_inline_insns_recursive",
+        "value": "--param max-inline-insns-recursive=94"
+      },
+      {
+        "name": "param_iv_always_prune_cand_set_bound",
+        "value": "--param iv-always-prune-cand-set-bound=9"
+      },
+      {
+        "name": "param_max_inline_insns_single",
+        "value": "--param max-inline-insns-single=84"
+      },
+      {
+        "name": "param_large_stack_frame",
+        "value": "--param large-stack-frame=281"
+      },
+      {
+        "name": "param_chkp_max_ctor_size",
+        "value": "--param chkp-max-ctor-size=4360"
+      },
+      {
+        "name": "param_inline_min_speedup",
+        "value": "--param inline-min-speedup=9"
+      },
+      {
+        "name": "param_iv_max_considered_uses",
+        "value": "--param iv-max-considered-uses=177"
+      },
+      {
+        "name": "param_max_inline_insns_recursive_auto",
+        "value": "--param max-inline-insns-recursive-auto=607"
+      },
+      {
+        "name": "param__fsched_stalled_insns_dep",
+        "value": "-fsched-stalled-insns-dep=0"
+      },
+      {
+        "name": "param_max_inline_recursive_depth",
+        "value": "--param max-inline-recursive-depth=5"
+      },
+      {
+        "name": "param_max_unswitch_level",
+        "value": "--param max-unswitch-level=5"
+      },
+      {
+        "name": "param_selsched_max_lookahead",
+        "value": "--param selsched-max-lookahead=100"
+      },
+      {
+        "name": "param_max_delay_slot_insn_search",
+        "value": "--param max-delay-slot-insn-search=33"
+      },
+      {
+        "name": "param_use_canonical_types",
+        "value": "--param use-canonical-types=0"
+      },
+      {
+        "name": "param_max_completely_peel_times",
+        "value": "--param max-completely-peel-times=4"
+      },
+      {
+        "name": "param_selsched_insns_to_rename",
+        "value": "--param selsched-insns-to-rename=1"
+      },
+      {
+        "name": "param_max_modulo_backtrack_attempts",
+        "value": "--param max-modulo-backtrack-attempts=51"
+      },
+      {
+        "name": "param_ipa_sra_ptr_growth_factor",
+        "value": "--param ipa-sra-ptr-growth-factor=2"
+      },
+      {
+        "name": "param_max_hoist_depth",
+        "value": "--param max-hoist-depth=50"
+      },
+      {
+        "name": "param_ira_loop_reserved_regs",
+        "value": "--param ira-loop-reserved-regs=2"
+      },
+      {
+        "name": "param_max_partial_antic_length",
+        "value": "--param max-partial-antic-length=119"
+      },
+      {
+        "name": "param_max_unrolled_insns",
+        "value": "--param max-unrolled-insns=194"
+      },
+      {
+        "name": "param_builtin_expect_probability",
+        "value": "--param builtin-expect-probability=50"
+      },
+      {
+        "name": "param_max_unroll_times",
+        "value": "--param max-unroll-times=2"
+      },
+      {
+        "name": "param_sink_frequency_threshold",
+        "value": "--param sink-frequency-threshold=87"
+      },
+      {
+        "name": "param_large_function_growth",
+        "value": "--param large-function-growth=148"
+      },
+      {
+        "name": "param_max_peel_times",
+        "value": "--param max-peel-times=8"
+      },
+      {
+        "name": "param_max_completely_peeled_insns",
+        "value": "--param max-completely-peeled-insns=226"
+      },
+      {
+        "name": "param_max_once_peeled_insns",
+        "value": "--param max-once-peeled-insns=574"
+      },
+      {
+        "name": "param_l1_cache_size",
+        "value": "--param l1-cache-size=52"
+      },
+      {
+        "name": "param_vect_max_version_for_alias_checks",
+        "value": "--param vect-max-version-for-alias-checks=0"
+      },
+      {
+        "name": "param_max_iterations_to_track",
+        "value": "--param max-iterations-to-track=306"
+      },
+      {
+        "name": "param_max_iterations_computation_cost",
+        "value": "--param max-iterations-computation-cost=16"
+      },
+      {
+        "name": "param_asan_instrument_reads",
+        "value": "--param asan-instrument-reads=1"
+      },
+      {
+        "name": "param_sms_max_ii_factor",
+        "value": "--param sms-max-ii-factor=49"
+      },
+      {
+        "name": "param_max_tracked_strlens",
+        "value": "--param max-tracked-strlens=3760"
+      },
+      {
+        "name": "param_sms_min_sc",
+        "value": "--param sms-min-sc=3"
+      },
+      {
+        "name": "param_max_sched_region_insns",
+        "value": "--param max-sched-region-insns=53"
+      },
+      {
+        "name": "param_hot_bb_count_ws_permille",
+        "value": "--param hot-bb-count-ws-permille=552"
+      },
+      {
+        "name": "param_hot_bb_frequency_fraction",
+        "value": "--param hot-bb-frequency-fraction=380"
+      },
+      {
+        "name": "param_ipa_cp_loop_hint_bonus",
+        "value": "--param ipa-cp-loop-hint-bonus=27"
+      },
+      {
+        "name": "param_max_peeled_insns",
+        "value": "--param max-peeled-insns=192"
+      },
+      {
+        "name": "param_unlikely_bb_count_fraction",
+        "value": "--param unlikely-bb-count-fraction=9684"
+      },
+      {
+        "name": "param_align_threshold",
+        "value": "--param align-threshold=86"
+      },
+      {
+        "name": "param_align_loop_iterations",
+        "value": "--param align-loop-iterations=8"
+      },
+      {
+        "name": "param_tracer_min_branch_ratio",
+        "value": "--param tracer-min-branch-ratio=0"
+      },
+      {
+        "name": "param_sched_state_edge_prob_cutoff",
+        "value": "--param sched-state-edge-prob-cutoff=59"
+      },
+      {
+        "name": "param_tracer_max_code_growth",
+        "value": "--param tracer-max-code-growth=31"
+      },
+      {
+        "name": "param_max_grow_copy_bb_insns",
+        "value": "--param max-grow-copy-bb-insns=0"
+      },
+      {
+        "name": "param_max_goto_duplication_insns",
+        "value": "--param max-goto-duplication-insns=3"
+      },
+      {
+        "name": "param_tracer_min_branch_probability_feedback",
+        "value": "--param tracer-min-branch-probability-feedback=68"
+      },
+      {
+        "name": "param_max_cse_insns",
+        "value": "--param max-cse-insns=385"
+      },
+      {
+        "name": "param_slp_max_insns_in_bb",
+        "value": "--param slp-max-insns-in-bb=706"
+      },
+      {
+        "name": "param_scev_max_expr_complexity",
+        "value": "--param scev-max-expr-complexity=4"
+      }
+    ],
+    [
+      {
+        "name": "param_max_fsm_thread_paths",
+        "value": "--param max-fsm-thread-paths=761904"
+      },
+      {
+        "name": "param_asan_memintrin",
+        "value": "--param asan-memintrin=0"
+      },
+      {
+        "name": "param_max_slsr_cand_scan",
+        "value": "--param max-slsr-cand-scan=880956"
+      },
+      {
+        "name": "param_sched_pressure_algorithm",
+        "value": "--param sched-pressure-algorithm=1"
+      },
+      {
+        "name": "param_max_tail_merge_iterations",
+        "value": "--param max-tail-merge-iterations=3"
+      },
+      {
+        "name": "param_max_stores_to_sink",
+        "value": "--param max-stores-to-sink=3"
+      },
+      {
+        "name": "param_cxx_max_namespaces_for_diagnostic_help",
+        "value": "--param cxx-max-namespaces-for-diagnostic-help=1292"
+      },
+      {
+        "name": "param_lto_min_partition",
+        "value": "--param lto-min-partition=1240"
+      },
+      {
+        "name": "param_max_fsm_thread_path_insns",
+        "value": "--param max-fsm-thread-path-insns=47618"
+      },
+      {
+        "name": "param_ipa_max_aa_steps",
+        "value": "--param ipa-max-aa-steps=27150"
+      },
+      {
+        "name": "param_ipa_max_agg_items",
+        "value": "--param ipa-max-agg-items=28"
+      },
+      {
+        "name": "param_ipa_cp_recursion_penalty",
+        "value": "--param ipa-cp-recursion-penalty=95"
+      },
+      {
+        "name": "param_ipa_cp_eval_threshold",
+        "value": "--param ipa-cp-eval-threshold=812"
+      },
+      {
+        "name": "param_allow_store_data_races",
+        "value": "--param allow-store-data-races=1"
+      },
+      {
+        "name": "param_ipa_cp_value_list_size",
+        "value": "--param ipa-cp-value-list-size=3"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Ospeed",
+        "value": "--param sra-max-scalarization-size-Ospeed=0"
+      },
+      {
+        "name": "param_max_vartrack_reverse_op_size",
+        "value": "--param max-vartrack-reverse-op-size=82"
+      },
+      {
+        "name": "param_min_insn_to_prefetch_ratio",
+        "value": "--param min-insn-to-prefetch-ratio=11"
+      },
+      {
+        "name": "param_loop_invariant_max_bbs_in_loop",
+        "value": "--param loop-invariant-max-bbs-in-loop=13386"
+      },
+      {
+        "name": "param_loop_block_tile_size",
+        "value": "--param loop-block-tile-size=47"
+      },
+      {
+        "name": "param_lra_inheritance_ebb_probability_cutoff",
+        "value": "--param lra-inheritance-ebb-probability-cutoff=9"
+      },
+      {
+        "name": "param_lra_max_considered_reload_pseudos",
+        "value": "--param lra-max-considered-reload-pseudos=840"
+      },
+      {
+        "name": "param_switch_conversion_max_branch_ratio",
+        "value": "--param switch-conversion-max-branch-ratio=16"
+      },
+      {
+        "name": "param_ira_max_conflict_table_size",
+        "value": "--param ira-max-conflict-table-size=1698"
+      },
+      {
+        "name": "param_ira_max_loops_num",
+        "value": "--param ira-max-loops-num=185"
+      },
+      {
+        "name": "param_sccvn_max_alias_queries_per_access",
+        "value": "--param sccvn-max-alias-queries-per-access=1087"
+      },
+      {
+        "name": "param_graphite_max_nb_scop_params",
+        "value": "--param graphite-max-nb-scop-params=1"
+      },
+      {
+        "name": "param_l2_cache_size",
+        "value": "--param l2-cache-size=418"
+      },
+      {
+        "name": "param_simultaneous_prefetches",
+        "value": "--param simultaneous-prefetches=1"
+      },
+      {
+        "name": "param_max_dse_active_local_stores",
+        "value": "--param max-dse-active-local-stores=5396"
+      },
+      {
+        "name": "param_max_sched_ready_insns",
+        "value": "--param max-sched-ready-insns=109"
+      },
+      {
+        "name": "param_min_size_for_stack_sharing",
+        "value": "--param min-size-for-stack-sharing=1"
+      },
+      {
+        "name": "param_uninit_control_dep_attempts",
+        "value": "--param uninit-control-dep-attempts=154"
+      },
+      {
+        "name": "param_l1_cache_line_size",
+        "value": "--param l1-cache-line-size=60"
+      },
+      {
+        "name": "param_integer_share_limit",
+        "value": "--param integer-share-limit=416"
+      },
+      {
+        "name": "param_max_combine_insns",
+        "value": "--param max-combine-insns=3"
+      },
+      {
+        "name": "param_selsched_max_sched_times",
+        "value": "--param selsched-max-sched-times=4"
+      },
+      {
+        "name": "param_max_sched_insn_conflict_delay",
+        "value": "--param max-sched-insn-conflict-delay=9"
+      },
+      {
+        "name": "param_max_pipeline_region_insns",
+        "value": "--param max-pipeline-region-insns=192"
+      },
+      {
+        "name": "param_max_pipeline_region_blocks",
+        "value": "--param max-pipeline-region-blocks=12"
+      },
+      {
+        "name": "param_ipa_sra_ptr_growth_factor",
+        "value": "--param ipa-sra-ptr-growth-factor=4"
+      },
+      {
+        "name": "param_max_hoist_depth",
+        "value": "--param max-hoist-depth=48"
+      },
+      {
+        "name": "param_max_unroll_times",
+        "value": "--param max-unroll-times=16"
+      },
+      {
+        "name": "param_max_average_unrolled_insns",
+        "value": "--param max-average-unrolled-insns=60"
+      },
+      {
+        "name": "param_sms_loop_average_count_threshold",
+        "value": "--param sms-loop-average-count-threshold=0"
+      },
+      {
+        "name": "param_max_sched_extend_regions_iters",
+        "value": "--param max-sched-extend-regions-iters=0"
+      },
+      {
+        "name": "param_gcse_cost_distance_ratio",
+        "value": "--param gcse-cost-distance-ratio=12"
+      },
+      {
+        "name": "param_ipcp_unit_growth",
+        "value": "--param ipcp-unit-growth=0"
+      },
+      {
+        "name": "param_gcse_after_reload_partial_fraction",
+        "value": "--param gcse-after-reload-partial-fraction=0"
+      },
+      {
+        "name": "param_max_gcse_insertion_ratio",
+        "value": "--param max-gcse-insertion-ratio=15"
+      },
+      {
+        "name": "param_max_fsm_thread_length",
+        "value": "--param max-fsm-thread-length=738093"
+      },
+      {
+        "name": "param_max_sched_region_blocks",
+        "value": "--param max-sched-region-blocks=3"
+      },
+      {
+        "name": "param_max_peel_branches",
+        "value": "--param max-peel-branches=52"
+      },
+      {
+        "name": "param_early_inlining_insns",
+        "value": "--param early-inlining-insns=23"
+      },
+      {
+        "name": "param_ssp_buffer_size",
+        "value": "--param ssp-buffer-size=8"
+      },
+      {
+        "name": "param_inline_unit_growth",
+        "value": "--param inline-unit-growth=37"
+      },
+      {
+        "name": "param_min_spec_prob",
+        "value": "--param min-spec-prob=42"
+      },
+      {
+        "name": "param_max_inline_insns_auto",
+        "value": "--param max-inline-insns-auto=51"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Osize",
+        "value": "--param sra-max-scalarization-size-Osize=0"
+      },
+      {
+        "name": "param_large_unit_insns",
+        "value": "--param large-unit-insns=7664"
+      },
+      {
+        "name": "param_max_completely_peel_loop_nest_depth",
+        "value": "--param max-completely-peel-loop-nest-depth=15"
+      },
+      {
+        "name": "param_max_vartrack_size",
+        "value": "--param max-vartrack-size=86635936"
+      },
+      {
+        "name": "param_gcse_unrestricted_cost",
+        "value": "--param gcse-unrestricted-cost=0"
+      },
+      {
+        "name": "param_scev_max_expr_size",
+        "value": "--param scev-max-expr-size=155"
+      },
+      {
+        "name": "param_vect_max_version_for_alignment_checks",
+        "value": "--param vect-max-version-for-alignment-checks=1"
+      },
+      {
+        "name": "param_max_vartrack_expr_depth",
+        "value": "--param max-vartrack-expr-depth=2"
+      },
+      {
+        "name": "param_large_function_insns",
+        "value": "--param large-function-insns=3952"
+      },
+      {
+        "name": "param_ira_loop_reserved_regs",
+        "value": "--param ira-loop-reserved-regs=1"
+      },
+      {
+        "name": "param_max_partial_antic_length",
+        "value": "--param max-partial-antic-length=172"
+      },
+      {
+        "name": "param_max_unrolled_insns",
+        "value": "--param max-unrolled-insns=123"
+      },
+      {
+        "name": "param_builtin_expect_probability",
+        "value": "--param builtin-expect-probability=45"
+      },
+      {
+        "name": "param_selsched_insns_to_rename",
+        "value": "--param selsched-insns-to-rename=0"
+      },
+      {
+        "name": "param_max_modulo_backtrack_attempts",
+        "value": "--param max-modulo-backtrack-attempts=15"
+      },
+      {
+        "name": "param_tracer_min_branch_probability",
+        "value": "--param tracer-min-branch-probability=11"
+      },
+      {
+        "name": "param_max_pending_list_length",
+        "value": "--param max-pending-list-length=0"
+      },
+      {
+        "name": "param_max_crossjump_edges",
+        "value": "--param max-crossjump-edges=92"
+      },
+      {
+        "name": "param_gcse_after_reload_critical_fraction",
+        "value": "--param gcse-after-reload-critical-fraction=13"
+      },
+      {
+        "name": "param_iv_consider_all_candidates_bound",
+        "value": "--param iv-consider-all-candidates-bound=48"
+      },
+      {
+        "name": "param_max_peel_times",
+        "value": "--param max-peel-times=3"
+      },
+      {
+        "name": "param_large_function_growth",
+        "value": "--param large-function-growth=33"
+      },
+      {
+        "name": "param_sink_frequency_threshold",
+        "value": "--param sink-frequency-threshold=88"
+      },
+      {
+        "name": "param_tm_max_aggregate_size",
+        "value": "--param tm-max-aggregate-size=2"
+      },
+      {
+        "name": "param_loop_max_datarefs_for_datadeps",
+        "value": "--param loop-max-datarefs-for-datadeps=1391"
+      },
+      {
+        "name": "param__ftree_parallelize_loops",
+        "value": "-ftree-parallelize-loops=0"
+      },
+      {
+        "name": "param_max_predicted_iterations",
+        "value": "--param max-predicted-iterations=131"
+      },
+      {
+        "name": "param_partial_inlining_entry_probability",
+        "value": "--param partial-inlining-entry-probability=100"
+      },
+      {
+        "name": "param_max_unswitch_insns",
+        "value": "--param max-unswitch-insns=6"
+      },
+      {
+        "name": "param_max_inline_insns_single",
+        "value": "--param max-inline-insns-single=541"
+      },
+      {
+        "name": "param_iv_always_prune_cand_set_bound",
+        "value": "--param iv-always-prune-cand-set-bound=11"
+      },
+      {
+        "name": "param_max_reload_search_insns",
+        "value": "--param max-reload-search-insns=180"
+      },
+      {
+        "name": "param_predictable_branch_outcome",
+        "value": "--param predictable-branch-outcome=13"
+      },
+      {
+        "name": "param_selsched_max_lookahead",
+        "value": "--param selsched-max-lookahead=64"
+      },
+      {
+        "name": "param_max_delay_slot_insn_search",
+        "value": "--param max-delay-slot-insn-search=183"
+      },
+      {
+        "name": "param_use_canonical_types",
+        "value": "--param use-canonical-types=0"
+      },
+      {
+        "name": "param_max_completely_peel_times",
+        "value": "--param max-completely-peel-times=23"
+      },
+      {
+        "name": "param_large_stack_frame_growth",
+        "value": "--param large-stack-frame-growth=683"
+      },
+      {
+        "name": "base_opt",
+        "value": "-O3"
+      },
+      {
+        "name": "param_min_crossjump_insns",
+        "value": "--param min-crossjump-insns=9"
+      },
+      {
+        "name": "param_max_inline_recursive_depth_auto",
+        "value": "--param max-inline-recursive-depth-auto=15"
+      },
+      {
+        "name": "param_ipa_cp_array_index_hint_bonus",
+        "value": "--param ipa-cp-array-index-hint-bonus=72"
+      },
+      {
+        "name": "param_sched_spec_prob_cutoff",
+        "value": "--param sched-spec-prob-cutoff=55"
+      },
+      {
+        "name": "param_max_inline_insns_recursive",
+        "value": "--param max-inline-insns-recursive=794"
+      },
+      {
+        "name": "param_max_jump_thread_duplication_stmts",
+        "value": "--param max-jump-thread-duplication-stmts=14"
+      },
+      {
+        "name": "param_min_vect_loop_bound",
+        "value": "--param min-vect-loop-bound=2"
+      },
+      {
+        "name": "param_lim_expensive",
+        "value": "--param lim-expensive=19"
+      },
+      {
+        "name": "param_large_stack_frame",
+        "value": "--param large-stack-frame=21"
+      },
+      {
+        "name": "param_chkp_max_ctor_size",
+        "value": "--param chkp-max-ctor-size=3730"
+      },
+      {
+        "name": "param_inline_min_speedup",
+        "value": "--param inline-min-speedup=5"
+      },
+      {
+        "name": "param_iv_max_considered_uses",
+        "value": "--param iv-max-considered-uses=287"
+      },
+      {
+        "name": "param_max_inline_insns_recursive_auto",
+        "value": "--param max-inline-insns-recursive-auto=755"
+      },
+      {
+        "name": "param__fsched_stalled_insns_dep",
+        "value": "-fsched-stalled-insns-dep=0"
+      },
+      {
+        "name": "param_max_inline_recursive_depth",
+        "value": "--param max-inline-recursive-depth=13"
+      },
+      {
+        "name": "param_max_unswitch_level",
+        "value": "--param max-unswitch-level=0"
+      },
+      {
+        "name": "param_ipa_cp_single_call_penalty",
+        "value": "--param ipa-cp-single-call-penalty=16"
+      },
+      {
+        "name": "param_prefetch_latency",
+        "value": "--param prefetch-latency=1"
+      },
+      {
+        "name": "param_comdat_sharing_probability",
+        "value": "--param comdat-sharing-probability=8"
+      },
+      {
+        "name": "param_max_delay_slot_live_search",
+        "value": "--param max-delay-slot-live-search=44"
+      },
+      {
+        "name": "param_max_cse_path_length",
+        "value": "--param max-cse-path-length=8"
+      },
+      {
+        "name": "param_vect_max_peeling_for_alignment",
+        "value": "--param vect-max-peeling-for-alignment=18"
+      },
+      {
+        "name": "param_max_completely_peeled_insns",
+        "value": "--param max-completely-peeled-insns=157"
+      },
+      {
+        "name": "param_max_once_peeled_insns",
+        "value": "--param max-once-peeled-insns=294"
+      },
+      {
+        "name": "param_l1_cache_size",
+        "value": "--param l1-cache-size=91"
+      },
+      {
+        "name": "param_vect_max_version_for_alias_checks",
+        "value": "--param vect-max-version-for-alias-checks=2"
+      },
+      {
+        "name": "param_max_iterations_to_track",
+        "value": "--param max-iterations-to-track=1143"
+      },
+      {
+        "name": "param_sms_max_ii_factor",
+        "value": "--param sms-max-ii-factor=21"
+      },
+      {
+        "name": "param_max_tracked_strlens",
+        "value": "--param max-tracked-strlens=11426"
+      },
+      {
+        "name": "param_sms_min_sc",
+        "value": "--param sms-min-sc=1"
+      },
+      {
+        "name": "param_max_sched_region_insns",
+        "value": "--param max-sched-region-insns=78"
+      },
+      {
+        "name": "param_hot_bb_count_ws_permille",
+        "value": "--param hot-bb-count-ws-permille=550"
+      },
+      {
+        "name": "param_hot_bb_frequency_fraction",
+        "value": "--param hot-bb-frequency-fraction=1086"
+      },
+      {
+        "name": "param_ipa_cp_loop_hint_bonus",
+        "value": "--param ipa-cp-loop-hint-bonus=100"
+      },
+      {
+        "name": "param_max_peeled_insns",
+        "value": "--param max-peeled-insns=107"
+      },
+      {
+        "name": "param_unlikely_bb_count_fraction",
+        "value": "--param unlikely-bb-count-fraction=319"
+      },
+      {
+        "name": "param_align_threshold",
+        "value": "--param align-threshold=1"
+      },
+      {
+        "name": "param_align_loop_iterations",
+        "value": "--param align-loop-iterations=3"
+      },
+      {
+        "name": "param_tracer_min_branch_ratio",
+        "value": "--param tracer-min-branch-ratio=26"
+      },
+      {
+        "name": "param_sched_state_edge_prob_cutoff",
+        "value": "--param sched-state-edge-prob-cutoff=11"
+      },
+      {
+        "name": "param_tracer_max_code_growth",
+        "value": "--param tracer-max-code-growth=145"
+      },
+      {
+        "name": "param_max_grow_copy_bb_insns",
+        "value": "--param max-grow-copy-bb-insns=16"
+      },
+      {
+        "name": "param_max_goto_duplication_insns",
+        "value": "--param max-goto-duplication-insns=13"
+      },
+      {
+        "name": "param_tracer_min_branch_probability_feedback",
+        "value": "--param tracer-min-branch-probability-feedback=11"
+      },
+      {
+        "name": "param_max_cse_insns",
+        "value": "--param max-cse-insns=1469"
+      },
+      {
+        "name": "param_slp_max_insns_in_bb",
+        "value": "--param slp-max-insns-in-bb=50"
+      },
+      {
+        "name": "param_scev_max_expr_complexity",
+        "value": "--param scev-max-expr-complexity=13"
+      },
+      {
+        "name": "param_max_last_value_rtl",
+        "value": "--param max-last-value-rtl=19400"
+      },
+      {
+        "name": "param_max_cselib_memory_locations",
+        "value": "--param max-cselib-memory-locations=835"
+      }
+    ],
+    [
+      {
+        "name": "param_max_fsm_thread_paths",
+        "value": "--param max-fsm-thread-paths=672619"
+      },
+      {
+        "name": "param_asan_use_after_return",
+        "value": "--param asan-use-after-return=0"
+      },
+      {
+        "name": "param_asan_memintrin",
+        "value": "--param asan-memintrin=0"
+      },
+      {
+        "name": "param_asan_stack",
+        "value": "--param asan-stack=0"
+      },
+      {
+        "name": "param_sched_pressure_algorithm",
+        "value": "--param sched-pressure-algorithm=1"
+      },
+      {
+        "name": "param_max_tail_merge_iterations",
+        "value": "--param max-tail-merge-iterations=3"
+      },
+      {
+        "name": "param_max_stores_to_sink",
+        "value": "--param max-stores-to-sink=4"
+      },
+      {
+        "name": "param_cxx_max_namespaces_for_diagnostic_help",
+        "value": "--param cxx-max-namespaces-for-diagnostic-help=664"
+      },
+      {
+        "name": "param_lto_min_partition",
+        "value": "--param lto-min-partition=1240"
+      },
+      {
+        "name": "param_max_fsm_thread_path_insns",
+        "value": "--param max-fsm-thread-path-insns=916666"
+      },
+      {
+        "name": "param_ipa_max_aa_steps",
+        "value": "--param ipa-max-aa-steps=36793"
+      },
+      {
+        "name": "param_ipa_max_agg_items",
+        "value": "--param ipa-max-agg-items=21"
+      },
+      {
+        "name": "param_max_tail_merge_comparisons",
+        "value": "--param max-tail-merge-comparisons=2"
+      },
+      {
+        "name": "param_ipa_cp_recursion_penalty",
+        "value": "--param ipa-cp-recursion-penalty=91"
+      },
+      {
+        "name": "param_ipa_cp_eval_threshold",
+        "value": "--param ipa-cp-eval-threshold=750"
+      },
+      {
+        "name": "param_allow_store_data_races",
+        "value": "--param allow-store-data-races=0"
+      },
+      {
+        "name": "param_ipa_cp_value_list_size",
+        "value": "--param ipa-cp-value-list-size=0"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Ospeed",
+        "value": "--param sra-max-scalarization-size-Ospeed=0"
+      },
+      {
+        "name": "param_max_vartrack_reverse_op_size",
+        "value": "--param max-vartrack-reverse-op-size=20"
+      },
+      {
+        "name": "param_max_vartrack_size",
+        "value": "--param max-vartrack-size=99078333"
+      },
+      {
+        "name": "param_loop_invariant_max_bbs_in_loop",
+        "value": "--param loop-invariant-max-bbs-in-loop=17448"
+      },
+      {
+        "name": "param_tm_max_aggregate_size",
+        "value": "--param tm-max-aggregate-size=4"
+      },
+      {
+        "name": "param_loop_max_datarefs_for_datadeps",
+        "value": "--param loop-max-datarefs-for-datadeps=425"
+      },
+      {
+        "name": "param_loop_block_tile_size",
+        "value": "--param loop-block-tile-size=71"
+      },
+      {
+        "name": "param_lra_inheritance_ebb_probability_cutoff",
+        "value": "--param lra-inheritance-ebb-probability-cutoff=17"
+      },
+      {
+        "name": "param_lra_max_considered_reload_pseudos",
+        "value": "--param lra-max-considered-reload-pseudos=848"
+      },
+      {
+        "name": "param_asan_instrument_writes",
+        "value": "--param asan-instrument-writes=0"
+      },
+      {
+        "name": "param_switch_conversion_max_branch_ratio",
+        "value": "--param switch-conversion-max-branch-ratio=16"
+      },
+      {
+        "name": "param_ira_max_conflict_table_size",
+        "value": "--param ira-max-conflict-table-size=95"
+      },
+      {
+        "name": "param_ira_max_loops_num",
+        "value": "--param ira-max-loops-num=126"
+      },
+      {
+        "name": "param_sccvn_max_alias_queries_per_access",
+        "value": "--param sccvn-max-alias-queries-per-access=323"
+      },
+      {
+        "name": "param_graphite_max_nb_scop_params",
+        "value": "--param graphite-max-nb-scop-params=15"
+      },
+      {
+        "name": "param_l2_cache_size",
+        "value": "--param l2-cache-size=214"
+      },
+      {
+        "name": "param_simultaneous_prefetches",
+        "value": "--param simultaneous-prefetches=0"
+      },
+      {
+        "name": "param_max_dse_active_local_stores",
+        "value": "--param max-dse-active-local-stores=80"
+      },
+      {
+        "name": "param_max_sched_ready_insns",
+        "value": "--param max-sched-ready-insns=194"
+      },
+      {
+        "name": "param_min_size_for_stack_sharing",
+        "value": "--param min-size-for-stack-sharing=29"
+      },
+      {
+        "name": "param_uninit_control_dep_attempts",
+        "value": "--param uninit-control-dep-attempts=1428"
+      },
+      {
+        "name": "param_l1_cache_line_size",
+        "value": "--param l1-cache-line-size=51"
+      },
+      {
+        "name": "param_integer_share_limit",
+        "value": "--param integer-share-limit=174"
+      },
+      {
+        "name": "param_max_combine_insns",
+        "value": "--param max-combine-insns=3"
+      },
+      {
+        "name": "param_sched_mem_true_dep_cost",
+        "value": "--param sched-mem-true-dep-cost=1"
+      },
+      {
+        "name": "param_max_sched_insn_conflict_delay",
+        "value": "--param max-sched-insn-conflict-delay=9"
+      },
+      {
+        "name": "param_max_pipeline_region_insns",
+        "value": "--param max-pipeline-region-insns=37"
+      },
+      {
+        "name": "param_max_pipeline_region_blocks",
+        "value": "--param max-pipeline-region-blocks=30"
+      },
+      {
+        "name": "param_max_reload_search_insns",
+        "value": "--param max-reload-search-insns=151"
+      },
+      {
+        "name": "param_max_last_value_rtl",
+        "value": "--param max-last-value-rtl=18496"
+      },
+      {
+        "name": "param_max_cselib_memory_locations",
+        "value": "--param max-cselib-memory-locations=858"
+      },
+      {
+        "name": "param_vect_max_peeling_for_alignment",
+        "value": "--param vect-max-peeling-for-alignment=48"
+      },
+      {
+        "name": "param_max_hoist_depth",
+        "value": "--param max-hoist-depth=50"
+      },
+      {
+        "name": "param_max_sched_extend_regions_iters",
+        "value": "--param max-sched-extend-regions-iters=0"
+      },
+      {
+        "name": "param_gcse_cost_distance_ratio",
+        "value": "--param gcse-cost-distance-ratio=8"
+      },
+      {
+        "name": "param_ipcp_unit_growth",
+        "value": "--param ipcp-unit-growth=12"
+      },
+      {
+        "name": "param_gcse_after_reload_critical_fraction",
+        "value": "--param gcse-after-reload-critical-fraction=20"
+      },
+      {
+        "name": "param_iv_consider_all_candidates_bound",
+        "value": "--param iv-consider-all-candidates-bound=29"
+      },
+      {
+        "name": "param_gcse_after_reload_partial_fraction",
+        "value": "--param gcse-after-reload-partial-fraction=6"
+      },
+      {
+        "name": "param_sms_dfa_history",
+        "value": "--param sms-dfa-history=0"
+      },
+      {
+        "name": "param_max_gcse_insertion_ratio",
+        "value": "--param max-gcse-insertion-ratio=36"
+      },
+      {
+        "name": "param_max_fsm_thread_length",
+        "value": "--param max-fsm-thread-length=619045"
+      },
+      {
+        "name": "param_max_sched_region_blocks",
+        "value": "--param max-sched-region-blocks=0"
+      },
+      {
+        "name": "param_max_peel_branches",
+        "value": "--param max-peel-branches=31"
+      },
+      {
+        "name": "param_early_inlining_insns",
+        "value": "--param early-inlining-insns=5"
+      },
+      {
+        "name": "param_max_variable_expansions_in_unroller",
+        "value": "--param max-variable-expansions-in-unroller=1"
+      },
+      {
+        "name": "param_ssp_buffer_size",
+        "value": "--param ssp-buffer-size=9"
+      },
+      {
+        "name": "param_inline_unit_growth",
+        "value": "--param inline-unit-growth=39"
+      },
+      {
+        "name": "param_min_spec_prob",
+        "value": "--param min-spec-prob=23"
+      },
+      {
+        "name": "param_max_inline_insns_auto",
+        "value": "--param max-inline-insns-auto=30"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Osize",
+        "value": "--param sra-max-scalarization-size-Osize=0"
+      },
+      {
+        "name": "param_large_unit_insns",
+        "value": "--param large-unit-insns=3153"
+      },
+      {
+        "name": "param_prefetch_min_insn_to_mem_ratio",
+        "value": "--param prefetch-min-insn-to-mem-ratio=3"
+      },
+      {
+        "name": "param_max_completely_peel_loop_nest_depth",
+        "value": "--param max-completely-peel-loop-nest-depth=14"
+      },
+      {
+        "name": "param_tracer_min_branch_probability",
+        "value": "--param tracer-min-branch-probability=92"
+      },
+      {
+        "name": "param_max_pending_list_length",
+        "value": "--param max-pending-list-length=40"
+      },
+      {
+        "name": "param_max_crossjump_edges",
+        "value": "--param max-crossjump-edges=160"
+      },
+      {
+        "name": "param_max_vartrack_expr_depth",
+        "value": "--param max-vartrack-expr-depth=2"
+      },
+      {
+        "name": "param_large_function_insns",
+        "value": "--param large-function-insns=2000"
+      },
+      {
+        "name": "param_min_insn_to_prefetch_ratio",
+        "value": "--param min-insn-to-prefetch-ratio=9"
+      },
+      {
+        "name": "param__fsched_stalled_insns",
+        "value": "-fsched-stalled-insns=0"
+      },
+      {
+        "name": "param_max_average_unrolled_insns",
+        "value": "--param max-average-unrolled-insns=3"
+      },
+      {
+        "name": "param_sms_loop_average_count_threshold",
+        "value": "--param sms-loop-average-count-threshold=0"
+      },
+      {
+        "name": "param_large_stack_frame_growth",
+        "value": "--param large-stack-frame-growth=1089"
+      },
+      {
+        "name": "param_max_slsr_cand_scan",
+        "value": "--param max-slsr-cand-scan=720244"
+      },
+      {
+        "name": "param_max_early_inliner_iterations",
+        "value": "--param max-early-inliner-iterations=0"
+      },
+      {
+        "name": "base_opt",
+        "value": "-O1"
+      },
+      {
+        "name": "param_ipa_cp_array_index_hint_bonus",
+        "value": "--param ipa-cp-array-index-hint-bonus=46"
+      },
+      {
+        "name": "param_sched_spec_prob_cutoff",
+        "value": "--param sched-spec-prob-cutoff=18"
+      },
+      {
+        "name": "param_max_inline_insns_recursive",
+        "value": "--param max-inline-insns-recursive=700"
+      },
+      {
+        "name": "param_max_jump_thread_duplication_stmts",
+        "value": "--param max-jump-thread-duplication-stmts=16"
+      },
+      {
+        "name": "param_min_vect_loop_bound",
+        "value": "--param min-vect-loop-bound=2"
+      },
+      {
+        "name": "param_lim_expensive",
+        "value": "--param lim-expensive=0"
+      },
+      {
+        "name": "param_min_crossjump_insns",
+        "value": "--param min-crossjump-insns=1"
+      },
+      {
+        "name": "param_max_inline_recursive_depth_auto",
+        "value": "--param max-inline-recursive-depth-auto=4"
+      },
+      {
+        "name": "param_min_inline_recursive_probability",
+        "value": "--param min-inline-recursive-probability=20"
+      },
+      {
+        "name": "param_max_delay_slot_live_search",
+        "value": "--param max-delay-slot-live-search=119"
+      },
+      {
+        "name": "param_max_cse_path_length",
+        "value": "--param max-cse-path-length=7"
+      },
+      {
+        "name": "param__finline_limit",
+        "value": "-finline-limit=0"
+      },
+      {
+        "name": "param_large_stack_frame",
+        "value": "--param large-stack-frame=15"
+      },
+      {
+        "name": "param_chkp_max_ctor_size",
+        "value": "--param chkp-max-ctor-size=5970"
+      },
+      {
+        "name": "param_inline_min_speedup",
+        "value": "--param inline-min-speedup=20"
+      },
+      {
+        "name": "param_iv_max_considered_uses",
+        "value": "--param iv-max-considered-uses=99"
+      },
+      {
+        "name": "param_max_inline_insns_recursive_auto",
+        "value": "--param max-inline-insns-recursive-auto=538"
+      },
+      {
+        "name": "param__fsched_stalled_insns_dep",
+        "value": "-fsched-stalled-insns-dep=0"
+      },
+      {
+        "name": "param_max_inline_recursive_depth",
+        "value": "--param max-inline-recursive-depth=14"
+      },
+      {
+        "name": "param_max_unswitch_level",
+        "value": "--param max-unswitch-level=4"
+      },
+      {
+        "name": "param_ipa_cp_single_call_penalty",
+        "value": "--param ipa-cp-single-call-penalty=26"
+      },
+      {
+        "name": "param_prefetch_latency",
+        "value": "--param prefetch-latency=348"
+      },
+      {
+        "name": "param_comdat_sharing_probability",
+        "value": "--param comdat-sharing-probability=40"
+      },
+      {
+        "name": "param_selsched_max_lookahead",
+        "value": "--param selsched-max-lookahead=60"
+      },
+      {
+        "name": "param_max_delay_slot_insn_search",
+        "value": "--param max-delay-slot-insn-search=189"
+      },
+      {
+        "name": "param_max_completely_peel_times",
+        "value": "--param max-completely-peel-times=8"
+      },
+      {
+        "name": "param_ira_loop_reserved_regs",
+        "value": "--param ira-loop-reserved-regs=1"
+      },
+      {
+        "name": "param_max_partial_antic_length",
+        "value": "--param max-partial-antic-length=152"
+      },
+      {
+        "name": "param_max_unrolled_insns",
+        "value": "--param max-unrolled-insns=380"
+      },
+      {
+        "name": "param_builtin_expect_probability",
+        "value": "--param builtin-expect-probability=16"
+      },
+      {
+        "name": "param_max_modulo_backtrack_attempts",
+        "value": "--param max-modulo-backtrack-attempts=15"
+      },
+      {
+        "name": "param_max_unroll_times",
+        "value": "--param max-unroll-times=1"
+      },
+      {
+        "name": "param_sink_frequency_threshold",
+        "value": "--param sink-frequency-threshold=50"
+      },
+      {
+        "name": "param_large_function_growth",
+        "value": "--param large-function-growth=31"
+      },
+      {
+        "name": "param_max_peel_times",
+        "value": "--param max-peel-times=5"
+      },
+      {
+        "name": "param_max_completely_peeled_insns",
+        "value": "--param max-completely-peeled-insns=147"
+      },
+      {
+        "name": "param_max_once_peeled_insns",
+        "value": "--param max-once-peeled-insns=444"
+      },
+      {
+        "name": "param_l1_cache_size",
+        "value": "--param l1-cache-size=107"
+      },
+      {
+        "name": "param_vect_max_version_for_alias_checks",
+        "value": "--param vect-max-version-for-alias-checks=18"
+      },
+      {
+        "name": "param_partial_inlining_entry_probability",
+        "value": "--param partial-inlining-entry-probability=33"
+      },
+      {
+        "name": "param_max_predicted_iterations",
+        "value": "--param max-predicted-iterations=62"
+      },
+      {
+        "name": "param_max_unswitch_insns",
+        "value": "--param max-unswitch-insns=58"
+      },
+      {
+        "name": "param_max_inline_insns_single",
+        "value": "--param max-inline-insns-single=794"
+      },
+      {
+        "name": "param_iv_always_prune_cand_set_bound",
+        "value": "--param iv-always-prune-cand-set-bound=1"
+      },
+      {
+        "name": "param_max_iterations_to_track",
+        "value": "--param max-iterations-to-track=1582"
+      },
+      {
+        "name": "param_max_iterations_computation_cost",
+        "value": "--param max-iterations-computation-cost=14"
+      },
+      {
+        "name": "param_sms_max_ii_factor",
+        "value": "--param sms-max-ii-factor=43"
+      },
+      {
+        "name": "param_max_tracked_strlens",
+        "value": "--param max-tracked-strlens=13230"
+      },
+      {
+        "name": "param_sms_min_sc",
+        "value": "--param sms-min-sc=3"
+      },
+      {
+        "name": "param_max_sched_region_insns",
+        "value": "--param max-sched-region-insns=118"
+      },
+      {
+        "name": "param_hot_bb_count_ws_permille",
+        "value": "--param hot-bb-count-ws-permille=962"
+      },
+      {
+        "name": "param_hot_bb_frequency_fraction",
+        "value": "--param hot-bb-frequency-fraction=1647"
+      },
+      {
+        "name": "param_ipa_cp_loop_hint_bonus",
+        "value": "--param ipa-cp-loop-hint-bonus=104"
+      },
+      {
+        "name": "param_max_peeled_insns",
+        "value": "--param max-peeled-insns=81"
+      },
+      {
+        "name": "param_unlikely_bb_count_fraction",
+        "value": "--param unlikely-bb-count-fraction=5555"
+      },
+      {
+        "name": "param_align_threshold",
+        "value": "--param align-threshold=165"
+      },
+      {
+        "name": "param_align_loop_iterations",
+        "value": "--param align-loop-iterations=3"
+      },
+      {
+        "name": "param_tracer_min_branch_ratio",
+        "value": "--param tracer-min-branch-ratio=41"
+      },
+      {
+        "name": "param_sched_state_edge_prob_cutoff",
+        "value": "--param sched-state-edge-prob-cutoff=100"
+      },
+      {
+        "name": "param_tracer_max_code_growth",
+        "value": "--param tracer-max-code-growth=166"
+      },
+      {
+        "name": "param_max_grow_copy_bb_insns",
+        "value": "--param max-grow-copy-bb-insns=15"
+      },
+      {
+        "name": "param_max_goto_duplication_insns",
+        "value": "--param max-goto-duplication-insns=4"
+      },
+      {
+        "name": "param_tracer_min_branch_probability_feedback",
+        "value": "--param tracer-min-branch-probability-feedback=100"
+      },
+      {
+        "name": "param_max_cse_insns",
+        "value": "--param max-cse-insns=1658"
+      },
+      {
+        "name": "param_scev_max_expr_size",
+        "value": "--param scev-max-expr-size=48"
+      },
+      {
+        "name": "param_slp_max_insns_in_bb",
+        "value": "--param slp-max-insns-in-bb=1266"
+      },
+      {
+        "name": "param_scev_max_expr_complexity",
+        "value": "--param scev-max-expr-complexity=20"
+      },
+      {
+        "name": "param_predictable_branch_outcome",
+        "value": "--param predictable-branch-outcome=46"
+      },
+      {
+        "name": "arch_mtune_native",
+        "value": "-mtune=native"
+      }
+    ],
+    [
+      {
+        "name": "param_max_fsm_thread_paths",
+        "value": "--param max-fsm-thread-paths=583335"
+      },
+      {
+        "name": "param_asan_use_after_return",
+        "value": "--param asan-use-after-return=0"
+      },
+      {
+        "name": "param_asan_memintrin",
+        "value": "--param asan-memintrin=0"
+      },
+      {
+        "name": "param_max_slsr_cand_scan",
+        "value": "--param max-slsr-cand-scan=916670"
+      },
+      {
+        "name": "param_sched_pressure_algorithm",
+        "value": "--param sched-pressure-algorithm=1"
+      },
+      {
+        "name": "param_max_tracked_strlens",
+        "value": "--param max-tracked-strlens=9022"
+      },
+      {
+        "name": "param_max_tail_merge_iterations",
+        "value": "--param max-tail-merge-iterations=3"
+      },
+      {
+        "name": "param_max_stores_to_sink",
+        "value": "--param max-stores-to-sink=3"
+      },
+      {
+        "name": "param_cxx_max_namespaces_for_diagnostic_help",
+        "value": "--param cxx-max-namespaces-for-diagnostic-help=1293"
+      },
+      {
+        "name": "param_lto_min_partition",
+        "value": "--param lto-min-partition=1012"
+      },
+      {
+        "name": "param_max_fsm_thread_path_insns",
+        "value": "--param max-fsm-thread-path-insns=988094"
+      },
+      {
+        "name": "param_ipa_max_aa_steps",
+        "value": "--param ipa-max-aa-steps=20722"
+      },
+      {
+        "name": "param_ipa_max_agg_items",
+        "value": "--param ipa-max-agg-items=31"
+      },
+      {
+        "name": "param_max_tail_merge_comparisons",
+        "value": "--param max-tail-merge-comparisons=20"
+      },
+      {
+        "name": "param_ipa_cp_recursion_penalty",
+        "value": "--param ipa-cp-recursion-penalty=100"
+      },
+      {
+        "name": "param_ipa_cp_eval_threshold",
+        "value": "--param ipa-cp-eval-threshold=792"
+      },
+      {
+        "name": "param_ipa_cp_value_list_size",
+        "value": "--param ipa-cp-value-list-size=3"
+      },
+      {
+        "name": "param_tree_reassoc_width",
+        "value": "--param tree-reassoc-width=0"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Ospeed",
+        "value": "--param sra-max-scalarization-size-Ospeed=0"
+      },
+      {
+        "name": "param_max_vartrack_reverse_op_size",
+        "value": "--param max-vartrack-reverse-op-size=90"
+      },
+      {
+        "name": "param_min_insn_to_prefetch_ratio",
+        "value": "--param min-insn-to-prefetch-ratio=12"
+      },
+      {
+        "name": "param_loop_invariant_max_bbs_in_loop",
+        "value": "--param loop-invariant-max-bbs-in-loop=13386"
+      },
+      {
+        "name": "param_loop_block_tile_size",
+        "value": "--param loop-block-tile-size=47"
+      },
+      {
+        "name": "param_lra_inheritance_ebb_probability_cutoff",
+        "value": "--param lra-inheritance-ebb-probability-cutoff=6"
+      },
+      {
+        "name": "param_lra_max_considered_reload_pseudos",
+        "value": "--param lra-max-considered-reload-pseudos=698"
+      },
+      {
+        "name": "param_switch_conversion_max_branch_ratio",
+        "value": "--param switch-conversion-max-branch-ratio=16"
+      },
+      {
+        "name": "param_ira_max_conflict_table_size",
+        "value": "--param ira-max-conflict-table-size=1698"
+      },
+      {
+        "name": "param_ira_max_loops_num",
+        "value": "--param ira-max-loops-num=171"
+      },
+      {
+        "name": "param_sccvn_max_alias_queries_per_access",
+        "value": "--param sccvn-max-alias-queries-per-access=707"
+      },
+      {
+        "name": "param_graphite_max_nb_scop_params",
+        "value": "--param graphite-max-nb-scop-params=3"
+      },
+      {
+        "name": "param_l2_cache_size",
+        "value": "--param l2-cache-size=418"
+      },
+      {
+        "name": "param_simultaneous_prefetches",
+        "value": "--param simultaneous-prefetches=1"
+      },
+      {
+        "name": "param_max_dse_active_local_stores",
+        "value": "--param max-dse-active-local-stores=4603"
+      },
+      {
+        "name": "param_max_sched_ready_insns",
+        "value": "--param max-sched-ready-insns=105"
+      },
+      {
+        "name": "param_min_size_for_stack_sharing",
+        "value": "--param min-size-for-stack-sharing=37"
+      },
+      {
+        "name": "param_uninit_control_dep_attempts",
+        "value": "--param uninit-control-dep-attempts=154"
+      },
+      {
+        "name": "param_l1_cache_line_size",
+        "value": "--param l1-cache-line-size=60"
+      },
+      {
+        "name": "param_integer_share_limit",
+        "value": "--param integer-share-limit=320"
+      },
+      {
+        "name": "param_max_combine_insns",
+        "value": "--param max-combine-insns=4"
+      },
+      {
+        "name": "param_selsched_max_sched_times",
+        "value": "--param selsched-max-sched-times=4"
+      },
+      {
+        "name": "param_ipa_sra_ptr_growth_factor",
+        "value": "--param ipa-sra-ptr-growth-factor=4"
+      },
+      {
+        "name": "param_max_hoist_depth",
+        "value": "--param max-hoist-depth=54"
+      },
+      {
+        "name": "param_max_unroll_times",
+        "value": "--param max-unroll-times=16"
+      },
+      {
+        "name": "param_max_average_unrolled_insns",
+        "value": "--param max-average-unrolled-insns=60"
+      },
+      {
+        "name": "param_sms_loop_average_count_threshold",
+        "value": "--param sms-loop-average-count-threshold=0"
+      },
+      {
+        "name": "param_gcse_cost_distance_ratio",
+        "value": "--param gcse-cost-distance-ratio=13"
+      },
+      {
+        "name": "param_ipcp_unit_growth",
+        "value": "--param ipcp-unit-growth=0"
+      },
+      {
+        "name": "param_gcse_after_reload_partial_fraction",
+        "value": "--param gcse-after-reload-partial-fraction=0"
+      },
+      {
+        "name": "param_early_inlining_insns",
+        "value": "--param early-inlining-insns=23"
+      },
+      {
+        "name": "param_ssp_buffer_size",
+        "value": "--param ssp-buffer-size=1"
+      },
+      {
+        "name": "param_inline_unit_growth",
+        "value": "--param inline-unit-growth=37"
+      },
+      {
+        "name": "param_min_spec_prob",
+        "value": "--param min-spec-prob=65"
+      },
+      {
+        "name": "param_max_inline_insns_auto",
+        "value": "--param max-inline-insns-auto=51"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Osize",
+        "value": "--param sra-max-scalarization-size-Osize=0"
+      },
+      {
+        "name": "param_large_unit_insns",
+        "value": "--param large-unit-insns=8266"
+      },
+      {
+        "name": "param_max_completely_peel_loop_nest_depth",
+        "value": "--param max-completely-peel-loop-nest-depth=11"
+      },
+      {
+        "name": "param_max_vartrack_size",
+        "value": "--param max-vartrack-size=72811053"
+      },
+      {
+        "name": "param_gcse_unrestricted_cost",
+        "value": "--param gcse-unrestricted-cost=0"
+      },
+      {
+        "name": "param_scev_max_expr_size",
+        "value": "--param scev-max-expr-size=123"
+      },
+      {
+        "name": "param_vect_max_version_for_alignment_checks",
+        "value": "--param vect-max-version-for-alignment-checks=1"
+      },
+      {
+        "name": "param_max_vartrack_expr_depth",
+        "value": "--param max-vartrack-expr-depth=1"
+      },
+      {
+        "name": "param_large_function_insns",
+        "value": "--param large-function-insns=4496"
+      },
+      {
+        "name": "param_ira_loop_reserved_regs",
+        "value": "--param ira-loop-reserved-regs=1"
+      },
+      {
+        "name": "param_max_partial_antic_length",
+        "value": "--param max-partial-antic-length=149"
+      },
+      {
+        "name": "param_max_unrolled_insns",
+        "value": "--param max-unrolled-insns=123"
+      },
+      {
+        "name": "param_builtin_expect_probability",
+        "value": "--param builtin-expect-probability=45"
+      },
+      {
+        "name": "param_selsched_insns_to_rename",
+        "value": "--param selsched-insns-to-rename=2"
+      },
+      {
+        "name": "param_max_modulo_backtrack_attempts",
+        "value": "--param max-modulo-backtrack-attempts=13"
+      },
+      {
+        "name": "param_tracer_min_branch_probability",
+        "value": "--param tracer-min-branch-probability=21"
+      },
+      {
+        "name": "param__falign_loops",
+        "value": "-falign-loops=0"
+      },
+      {
+        "name": "param_max_pending_list_length",
+        "value": "--param max-pending-list-length=0"
+      },
+      {
+        "name": "param_max_crossjump_edges",
+        "value": "--param max-crossjump-edges=92"
+      },
+      {
+        "name": "param_min_crossjump_insns",
+        "value": "--param min-crossjump-insns=9"
+      },
+      {
+        "name": "param_gcse_after_reload_critical_fraction",
+        "value": "--param gcse-after-reload-critical-fraction=12"
+      },
+      {
+        "name": "param_iv_consider_all_candidates_bound",
+        "value": "--param iv-consider-all-candidates-bound=48"
+      },
+      {
+        "name": "param_tm_max_aggregate_size",
+        "value": "--param tm-max-aggregate-size=2"
+      },
+      {
+        "name": "param_loop_max_datarefs_for_datadeps",
+        "value": "--param loop-max-datarefs-for-datadeps=1391"
+      },
+      {
+        "name": "param__ftree_parallelize_loops",
+        "value": "-ftree-parallelize-loops=0"
+      },
+      {
+        "name": "param_max_predicted_iterations",
+        "value": "--param max-predicted-iterations=154"
+      },
+      {
+        "name": "param_partial_inlining_entry_probability",
+        "value": "--param partial-inlining-entry-probability=87"
+      },
+      {
+        "name": "param_max_unswitch_insns",
+        "value": "--param max-unswitch-insns=86"
+      },
+      {
+        "name": "param_max_reload_search_insns",
+        "value": "--param max-reload-search-insns=145"
+      },
+      {
+        "name": "param_predictable_branch_outcome",
+        "value": "--param predictable-branch-outcome=14"
+      },
+      {
+        "name": "param_large_stack_frame_growth",
+        "value": "--param large-stack-frame-growth=531"
+      },
+      {
+        "name": "base_opt",
+        "value": "-O3"
+      },
+      {
+        "name": "param_max_gcse_insertion_ratio",
+        "value": "--param max-gcse-insertion-ratio=10"
+      },
+      {
+        "name": "param_max_fsm_thread_length",
+        "value": "--param max-fsm-thread-length=630951"
+      },
+      {
+        "name": "param_max_sched_region_blocks",
+        "value": "--param max-sched-region-blocks=15"
+      },
+      {
+        "name": "param_max_peel_branches",
+        "value": "--param max-peel-branches=4"
+      },
+      {
+        "name": "param_iv_always_prune_cand_set_bound",
+        "value": "--param iv-always-prune-cand-set-bound=10"
+      },
+      {
+        "name": "param_max_inline_insns_single",
+        "value": "--param max-inline-insns-single=541"
+      },
+      {
+        "name": "param_ipa_cp_array_index_hint_bonus",
+        "value": "--param ipa-cp-array-index-hint-bonus=72"
+      },
+      {
+        "name": "param_sched_spec_prob_cutoff",
+        "value": "--param sched-spec-prob-cutoff=8"
+      },
+      {
+        "name": "param_max_inline_insns_recursive",
+        "value": "--param max-inline-insns-recursive=703"
+      },
+      {
+        "name": "param_max_jump_thread_duplication_stmts",
+        "value": "--param max-jump-thread-duplication-stmts=14"
+      },
+      {
+        "name": "param_min_vect_loop_bound",
+        "value": "--param min-vect-loop-bound=2"
+      },
+      {
+        "name": "param_lim_expensive",
+        "value": "--param lim-expensive=17"
+      },
+      {
+        "name": "param_max_delay_slot_live_search",
+        "value": "--param max-delay-slot-live-search=45"
+      },
+      {
+        "name": "param_max_cse_path_length",
+        "value": "--param max-cse-path-length=15"
+      },
+      {
+        "name": "param_vect_max_peeling_for_alignment",
+        "value": "--param vect-max-peeling-for-alignment=18"
+      },
+      {
+        "name": "param_large_stack_frame",
+        "value": "--param large-stack-frame=505"
+      },
+      {
+        "name": "param_chkp_max_ctor_size",
+        "value": "--param chkp-max-ctor-size=4930"
+      },
+      {
+        "name": "param_inline_min_speedup",
+        "value": "--param inline-min-speedup=5"
+      },
+      {
+        "name": "param_iv_max_considered_uses",
+        "value": "--param iv-max-considered-uses=287"
+      },
+      {
+        "name": "param_max_inline_insns_recursive_auto",
+        "value": "--param max-inline-insns-recursive-auto=846"
+      },
+      {
+        "name": "param__fsched_stalled_insns_dep",
+        "value": "-fsched-stalled-insns-dep=0"
+      },
+      {
+        "name": "param_max_inline_recursive_depth",
+        "value": "--param max-inline-recursive-depth=14"
+      },
+      {
+        "name": "param_selsched_max_lookahead",
+        "value": "--param selsched-max-lookahead=11"
+      },
+      {
+        "name": "param_max_delay_slot_insn_search",
+        "value": "--param max-delay-slot-insn-search=4"
+      },
+      {
+        "name": "param_use_canonical_types",
+        "value": "--param use-canonical-types=0"
+      },
+      {
+        "name": "param_max_completely_peel_times",
+        "value": "--param max-completely-peel-times=23"
+      },
+      {
+        "name": "param_min_inline_recursive_probability",
+        "value": "--param min-inline-recursive-probability=0"
+      },
+      {
+        "name": "param_ipa_cp_single_call_penalty",
+        "value": "--param ipa-cp-single-call-penalty=16"
+      },
+      {
+        "name": "param_prefetch_latency",
+        "value": "--param prefetch-latency=18"
+      },
+      {
+        "name": "param_comdat_sharing_probability",
+        "value": "--param comdat-sharing-probability=8"
+      },
+      {
+        "name": "param_large_function_growth",
+        "value": "--param large-function-growth=33"
+      },
+      {
+        "name": "param_sink_frequency_threshold",
+        "value": "--param sink-frequency-threshold=82"
+      },
+      {
+        "name": "param_max_peel_times",
+        "value": "--param max-peel-times=0"
+      },
+      {
+        "name": "param_max_completely_peeled_insns",
+        "value": "--param max-completely-peeled-insns=199"
+      },
+      {
+        "name": "param_max_once_peeled_insns",
+        "value": "--param max-once-peeled-insns=326"
+      },
+      {
+        "name": "param_l1_cache_size",
+        "value": "--param l1-cache-size=91"
+      },
+      {
+        "name": "param_vect_max_version_for_alias_checks",
+        "value": "--param vect-max-version-for-alias-checks=2"
+      },
+      {
+        "name": "param_max_iterations_to_track",
+        "value": "--param max-iterations-to-track=1144"
+      },
+      {
+        "name": "param_sms_max_ii_factor",
+        "value": "--param sms-max-ii-factor=7"
+      },
+      {
+        "name": "param_hot_bb_frequency_fraction",
+        "value": "--param hot-bb-frequency-fraction=1048"
+      },
+      {
+        "name": "param_ipa_cp_loop_hint_bonus",
+        "value": "--param ipa-cp-loop-hint-bonus=100"
+      },
+      {
+        "name": "param_max_peeled_insns",
+        "value": "--param max-peeled-insns=107"
+      },
+      {
+        "name": "param_unlikely_bb_count_fraction",
+        "value": "--param unlikely-bb-count-fraction=8576"
+      },
+      {
+        "name": "param_max_pipeline_region_insns",
+        "value": "--param max-pipeline-region-insns=367"
+      },
+      {
+        "name": "param_align_threshold",
+        "value": "--param align-threshold=24"
+      },
+      {
+        "name": "param_align_loop_iterations",
+        "value": "--param align-loop-iterations=3"
+      },
+      {
+        "name": "param_tracer_min_branch_ratio",
+        "value": "--param tracer-min-branch-ratio=29"
+      },
+      {
+        "name": "param_sched_state_edge_prob_cutoff",
+        "value": "--param sched-state-edge-prob-cutoff=54"
+      },
+      {
+        "name": "param_tracer_max_code_growth",
+        "value": "--param tracer-max-code-growth=136"
+      },
+      {
+        "name": "param_max_goto_duplication_insns",
+        "value": "--param max-goto-duplication-insns=10"
+      },
+      {
+        "name": "param_tracer_min_branch_probability_feedback",
+        "value": "--param tracer-min-branch-probability-feedback=4"
+      },
+      {
+        "name": "param_max_cse_insns",
+        "value": "--param max-cse-insns=1393"
+      },
+      {
+        "name": "param_slp_max_insns_in_bb",
+        "value": "--param slp-max-insns-in-bb=1750"
+      },
+      {
+        "name": "param_scev_max_expr_complexity",
+        "value": "--param scev-max-expr-complexity=16"
+      },
+      {
+        "name": "param_max_last_value_rtl",
+        "value": "--param max-last-value-rtl=15193"
+      },
+      {
+        "name": "param_max_cselib_memory_locations",
+        "value": "--param max-cselib-memory-locations=142"
+      },
+      {
+        "name": "param_hot_bb_count_ws_permille",
+        "value": "--param hot-bb-count-ws-permille=428"
+      },
+      {
+        "name": "param_max_sched_region_insns",
+        "value": "--param max-sched-region-insns=72"
+      }
+    ],
+    [
+      {
+        "name": "param_max_fsm_thread_paths",
+        "value": "--param max-fsm-thread-paths=642857"
+      },
+      {
+        "name": "param_asan_use_after_return",
+        "value": "--param asan-use-after-return=0"
+      },
+      {
+        "name": "param_asan_memintrin",
+        "value": "--param asan-memintrin=0"
+      },
+      {
+        "name": "param_max_slsr_cand_scan",
+        "value": "--param max-slsr-cand-scan=880956"
+      },
+      {
+        "name": "param_sched_pressure_algorithm",
+        "value": "--param sched-pressure-algorithm=1"
+      },
+      {
+        "name": "param_max_tail_merge_iterations",
+        "value": "--param max-tail-merge-iterations=3"
+      },
+      {
+        "name": "param_max_stores_to_sink",
+        "value": "--param max-stores-to-sink=3"
+      },
+      {
+        "name": "param_cxx_max_namespaces_for_diagnostic_help",
+        "value": "--param cxx-max-namespaces-for-diagnostic-help=1254"
+      },
+      {
+        "name": "param_lto_min_partition",
+        "value": "--param lto-min-partition=1164"
+      },
+      {
+        "name": "param_max_fsm_thread_path_insns",
+        "value": "--param max-fsm-thread-path-insns=964285"
+      },
+      {
+        "name": "param_ipa_max_aa_steps",
+        "value": "--param ipa-max-aa-steps=20007"
+      },
+      {
+        "name": "param_ipa_max_agg_items",
+        "value": "--param ipa-max-agg-items=28"
+      },
+      {
+        "name": "param_ipa_cp_recursion_penalty",
+        "value": "--param ipa-cp-recursion-penalty=92"
+      },
+      {
+        "name": "param_ipa_cp_eval_threshold",
+        "value": "--param ipa-cp-eval-threshold=731"
+      },
+      {
+        "name": "param_allow_store_data_races",
+        "value": "--param allow-store-data-races=1"
+      },
+      {
+        "name": "param_ipa_cp_value_list_size",
+        "value": "--param ipa-cp-value-list-size=3"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Ospeed",
+        "value": "--param sra-max-scalarization-size-Ospeed=0"
+      },
+      {
+        "name": "param_max_vartrack_reverse_op_size",
+        "value": "--param max-vartrack-reverse-op-size=82"
+      },
+      {
+        "name": "param_min_insn_to_prefetch_ratio",
+        "value": "--param min-insn-to-prefetch-ratio=13"
+      },
+      {
+        "name": "param_loop_invariant_max_bbs_in_loop",
+        "value": "--param loop-invariant-max-bbs-in-loop=14287"
+      },
+      {
+        "name": "param_loop_block_tile_size",
+        "value": "--param loop-block-tile-size=55"
+      },
+      {
+        "name": "param_lra_inheritance_ebb_probability_cutoff",
+        "value": "--param lra-inheritance-ebb-probability-cutoff=7"
+      },
+      {
+        "name": "param_lra_max_considered_reload_pseudos",
+        "value": "--param lra-max-considered-reload-pseudos=657"
+      },
+      {
+        "name": "param_switch_conversion_max_branch_ratio",
+        "value": "--param switch-conversion-max-branch-ratio=14"
+      },
+      {
+        "name": "param_ira_max_conflict_table_size",
+        "value": "--param ira-max-conflict-table-size=1622"
+      },
+      {
+        "name": "param_ira_max_loops_num",
+        "value": "--param ira-max-loops-num=185"
+      },
+      {
+        "name": "param_sccvn_max_alias_queries_per_access",
+        "value": "--param sccvn-max-alias-queries-per-access=1429"
+      },
+      {
+        "name": "param_graphite_max_nb_scop_params",
+        "value": "--param graphite-max-nb-scop-params=1"
+      },
+      {
+        "name": "param_l2_cache_size",
+        "value": "--param l2-cache-size=476"
+      },
+      {
+        "name": "param_simultaneous_prefetches",
+        "value": "--param simultaneous-prefetches=1"
+      },
+      {
+        "name": "param_max_dse_active_local_stores",
+        "value": "--param max-dse-active-local-stores=4285"
+      },
+      {
+        "name": "param_max_sched_ready_insns",
+        "value": "--param max-sched-ready-insns=109"
+      },
+      {
+        "name": "param_min_size_for_stack_sharing",
+        "value": "--param min-size-for-stack-sharing=1"
+      },
+      {
+        "name": "param_uninit_control_dep_attempts",
+        "value": "--param uninit-control-dep-attempts=154"
+      },
+      {
+        "name": "param_l1_cache_line_size",
+        "value": "--param l1-cache-line-size=0"
+      },
+      {
+        "name": "param_integer_share_limit",
+        "value": "--param integer-share-limit=361"
+      },
+      {
+        "name": "param_selsched_max_sched_times",
+        "value": "--param selsched-max-sched-times=4"
+      },
+      {
+        "name": "param_max_sched_insn_conflict_delay",
+        "value": "--param max-sched-insn-conflict-delay=5"
+      },
+      {
+        "name": "param_max_pipeline_region_insns",
+        "value": "--param max-pipeline-region-insns=166"
+      },
+      {
+        "name": "param_max_pipeline_region_blocks",
+        "value": "--param max-pipeline-region-blocks=8"
+      },
+      {
+        "name": "param_ipa_sra_ptr_growth_factor",
+        "value": "--param ipa-sra-ptr-growth-factor=4"
+      },
+      {
+        "name": "param_max_hoist_depth",
+        "value": "--param max-hoist-depth=53"
+      },
+      {
+        "name": "param_max_unroll_times",
+        "value": "--param max-unroll-times=1"
+      },
+      {
+        "name": "param_max_sched_extend_regions_iters",
+        "value": "--param max-sched-extend-regions-iters=0"
+      },
+      {
+        "name": "param_gcse_cost_distance_ratio",
+        "value": "--param gcse-cost-distance-ratio=19"
+      },
+      {
+        "name": "param_ipcp_unit_growth",
+        "value": "--param ipcp-unit-growth=13"
+      },
+      {
+        "name": "param_gcse_after_reload_partial_fraction",
+        "value": "--param gcse-after-reload-partial-fraction=0"
+      },
+      {
+        "name": "param_sms_dfa_history",
+        "value": "--param sms-dfa-history=0"
+      },
+      {
+        "name": "param_max_gcse_insertion_ratio",
+        "value": "--param max-gcse-insertion-ratio=39"
+      },
+      {
+        "name": "param_max_fsm_thread_length",
+        "value": "--param max-fsm-thread-length=642855"
+      },
+      {
+        "name": "param_max_sched_region_blocks",
+        "value": "--param max-sched-region-blocks=3"
+      },
+      {
+        "name": "param_max_peel_branches",
+        "value": "--param max-peel-branches=4"
+      },
+      {
+        "name": "param_early_inlining_insns",
+        "value": "--param early-inlining-insns=0"
+      },
+      {
+        "name": "param_ssp_buffer_size",
+        "value": "--param ssp-buffer-size=8"
+      },
+      {
+        "name": "param_inline_unit_growth",
+        "value": "--param inline-unit-growth=14"
+      },
+      {
+        "name": "param_min_spec_prob",
+        "value": "--param min-spec-prob=32"
+      },
+      {
+        "name": "param_max_inline_insns_auto",
+        "value": "--param max-inline-insns-auto=45"
+      },
+      {
+        "name": "param_sra_max_scalarization_size_Osize",
+        "value": "--param sra-max-scalarization-size-Osize=0"
+      },
+      {
+        "name": "param_large_unit_insns",
+        "value": "--param large-unit-insns=9932"
+      },
+      {
+        "name": "param_max_completely_peel_loop_nest_depth",
+        "value": "--param max-completely-peel-loop-nest-depth=1"
+      },
+      {
+        "name": "param_max_vartrack_size",
+        "value": "--param max-vartrack-size=96774185"
+      },
+      {
+        "name": "param_gcse_unrestricted_cost",
+        "value": "--param gcse-unrestricted-cost=3"
+      },
+      {
+        "name": "param_scev_max_expr_size",
+        "value": "--param scev-max-expr-size=169"
+      },
+      {
+        "name": "param_max_vartrack_expr_depth",
+        "value": "--param max-vartrack-expr-depth=4"
+      },
+      {
+        "name": "param_large_function_insns",
+        "value": "--param large-function-insns=3407"
+      },
+      {
+        "name": "param_ira_loop_reserved_regs",
+        "value": "--param ira-loop-reserved-regs=0"
+      },
+      {
+        "name": "param_max_partial_antic_length",
+        "value": "--param max-partial-antic-length=172"
+      },
+      {
+        "name": "param_max_unrolled_insns",
+        "value": "--param max-unrolled-insns=142"
+      },
+      {
+        "name": "param_builtin_expect_probability",
+        "value": "--param builtin-expect-probability=63"
+      },
+      {
+        "name": "param_max_modulo_backtrack_attempts",
+        "value": "--param max-modulo-backtrack-attempts=23"
+      },
+      {
+        "name": "param_tracer_min_branch_probability",
+        "value": "--param tracer-min-branch-probability=97"
+      },
+      {
+        "name": "param_max_pending_list_length",
+        "value": "--param max-pending-list-length=0"
+      },
+      {
+        "name": "param_max_crossjump_edges",
+        "value": "--param max-crossjump-edges=149"
+      },
+      {
+        "name": "param_gcse_after_reload_critical_fraction",
+        "value": "--param gcse-after-reload-critical-fraction=6"
+      },
+      {
+        "name": "param_iv_consider_all_candidates_bound",
+        "value": "--param iv-consider-all-candidates-bound=48"
+      },
+      {
+        "name": "param_max_peel_times",
+        "value": "--param max-peel-times=8"
+      },
+      {
+        "name": "param_large_function_growth",
+        "value": "--param large-function-growth=144"
+      },
+      {
+        "name": "param_sink_frequency_threshold",
+        "value": "--param sink-frequency-threshold=94"
+      },
+      {
+        "name": "param_tm_max_aggregate_size",
+        "value": "--param tm-max-aggregate-size=1"
+      },
+      {
+        "name": "param_loop_max_datarefs_for_datadeps",
+        "value": "--param loop-max-datarefs-for-datadeps=1429"
+      },
+      {
+        "name": "param__ftree_parallelize_loops",
+        "value": "-ftree-parallelize-loops=0"
+      },
+      {
+        "name": "param_max_inline_insns_single",
+        "value": "--param max-inline-insns-single=541"
+      },
+      {
+        "name": "param_iv_always_prune_cand_set_bound",
+        "value": "--param iv-always-prune-cand-set-bound=13"
+      },
+      {
+        "name": "param_max_reload_search_insns",
+        "value": "--param max-reload-search-insns=171"
+      },
+      {
+        "name": "param_predictable_branch_outcome",
+        "value": "--param predictable-branch-outcome=13"
+      },
+      {
+        "name": "param_large_stack_frame_growth",
+        "value": "--param large-stack-frame-growth=1887"
+      },
+      {
+        "name": "base_opt",
+        "value": "-O1"
+      },
+      {
+        "name": "param_min_crossjump_insns",
+        "value": "--param min-crossjump-insns=8"
+      },
+      {
+        "name": "param_max_inline_recursive_depth_auto",
+        "value": "--param max-inline-recursive-depth-auto=16"
+      },
+      {
+        "name": "param_min_inline_recursive_probability",
+        "value": "--param min-inline-recursive-probability=19"
+      },
+      {
+        "name": "param_ipa_cp_array_index_hint_bonus",
+        "value": "--param ipa-cp-array-index-hint-bonus=73"
+      },
+      {
+        "name": "param_sched_spec_prob_cutoff",
+        "value": "--param sched-spec-prob-cutoff=55"
+      },
+      {
+        "name": "param_max_inline_insns_recursive",
+        "value": "--param max-inline-insns-recursive=812"
+      },
+      {
+        "name": "param_max_jump_thread_duplication_stmts",
+        "value": "--param max-jump-thread-duplication-stmts=14"
+      },
+      {
+        "name": "param_min_vect_loop_bound",
+        "value": "--param min-vect-loop-bound=2"
+      },
+      {
+        "name": "param_lim_expensive",
+        "value": "--param lim-expensive=19"
+      },
+      {
+        "name": "param_max_delay_slot_live_search",
+        "value": "--param max-delay-slot-live-search=125"
+      },
+      {
+        "name": "param_max_cse_path_length",
+        "value": "--param max-cse-path-length=1"
+      },
+      {
+        "name": "param_vect_max_peeling_for_alignment",
+        "value": "--param vect-max-peeling-for-alignment=21"
+      },
+      {
+        "name": "param_large_stack_frame",
+        "value": "--param large-stack-frame=260"
+      },
+      {
+        "name": "param_chkp_max_ctor_size",
+        "value": "--param chkp-max-ctor-size=5940"
+      },
+      {
+        "name": "param_inline_min_speedup",
+        "value": "--param inline-min-speedup=5"
+      },
+      {
+        "name": "param_iv_max_considered_uses",
+        "value": "--param iv-max-considered-uses=331"
+      },
+      {
+        "name": "param_max_inline_insns_recursive_auto",
+        "value": "--param max-inline-insns-recursive-auto=719"
+      },
+      {
+        "name": "param__fsched_stalled_insns_dep",
+        "value": "-fsched-stalled-insns-dep=0"
+      },
+      {
+        "name": "param_max_inline_recursive_depth",
+        "value": "--param max-inline-recursive-depth=14"
+      },
+      {
+        "name": "param_max_unswitch_level",
+        "value": "--param max-unswitch-level=5"
+      },
+      {
+        "name": "param_selsched_max_lookahead",
+        "value": "--param selsched-max-lookahead=38"
+      },
+      {
+        "name": "param_max_delay_slot_insn_search",
+        "value": "--param max-delay-slot-insn-search=179"
+      },
+      {
+        "name": "param_use_canonical_types",
+        "value": "--param use-canonical-types=0"
+      },
+      {
+        "name": "param_max_completely_peel_times",
+        "value": "--param max-completely-peel-times=4"
+      },
+      {
+        "name": "param_ipa_cp_single_call_penalty",
+        "value": "--param ipa-cp-single-call-penalty=26"
+      },
+      {
+        "name": "param_prefetch_latency",
+        "value": "--param prefetch-latency=1"
+      },
+      {
+        "name": "param_comdat_sharing_probability",
+        "value": "--param comdat-sharing-probability=10"
+      },
+      {
+        "name": "param_max_completely_peeled_insns",
+        "value": "--param max-completely-peeled-insns=200"
+      },
+      {
+        "name": "param_max_once_peeled_insns",
+        "value": "--param max-once-peeled-insns=509"
+      },
+      {
+        "name": "param_l1_cache_size",
+        "value": "--param l1-cache-size=91"
+      },
+      {
+        "name": "param_vect_max_version_for_alias_checks",
+        "value": "--param vect-max-version-for-alias-checks=2"
+      },
+      {
+        "name": "param_max_iterations_to_track",
+        "value": "--param max-iterations-to-track=2"
+      },
+      {
+        "name": "param_max_iterations_computation_cost",
+        "value": "--param max-iterations-computation-cost=18"
+      },
+      {
+        "name": "param_sms_max_ii_factor",
+        "value": "--param sms-max-ii-factor=49"
+      },
+      {
+        "name": "param_max_tracked_strlens",
+        "value": "--param max-tracked-strlens=16538"
+      },
+      {
+        "name": "param_sms_min_sc",
+        "value": "--param sms-min-sc=3"
+      },
+      {
+        "name": "param_sms_loop_average_count_threshold",
+        "value": "--param sms-loop-average-count-threshold=0"
+      },
+      {
+        "name": "param_partial_inlining_entry_probability",
+        "value": "--param partial-inlining-entry-probability=98"
+      },
+      {
+        "name": "param_max_unswitch_insns",
+        "value": "--param max-unswitch-insns=22"
+      },
+      {
+        "name": "param_max_predicted_iterations",
+        "value": "--param max-predicted-iterations=192"
+      },
+      {
+        "name": "param_max_sched_region_insns",
+        "value": "--param max-sched-region-insns=64"
+      },
+      {
+        "name": "param_hot_bb_count_ws_permille",
+        "value": "--param hot-bb-count-ws-permille=552"
+      },
+      {
+        "name": "param_hot_bb_frequency_fraction",
+        "value": "--param hot-bb-frequency-fraction=1736"
+      },
+      {
+        "name": "param_ipa_cp_loop_hint_bonus",
+        "value": "--param ipa-cp-loop-hint-bonus=9"
+      },
+      {
+        "name": "param_max_peeled_insns",
+        "value": "--param max-peeled-insns=8"
+      },
+      {
+        "name": "param_unlikely_bb_count_fraction",
+        "value": "--param unlikely-bb-count-fraction=8891"
+      },
+      {
+        "name": "param_align_threshold",
+        "value": "--param align-threshold=86"
+      },
+      {
+        "name": "param_align_loop_iterations",
+        "value": "--param align-loop-iterations=8"
+      },
+      {
+        "name": "param_tracer_min_branch_ratio",
+        "value": "--param tracer-min-branch-ratio=7"
+      },
+      {
+        "name": "param_sched_state_edge_prob_cutoff",
+        "value": "--param sched-state-edge-prob-cutoff=10"
+      },
+      {
+        "name": "param_tracer_max_code_growth",
+        "value": "--param tracer-max-code-growth=35"
+      },
+      {
+        "name": "param_max_grow_copy_bb_insns",
+        "value": "--param max-grow-copy-bb-insns=0"
+      },
+      {
+        "name": "param_max_goto_duplication_insns",
+        "value": "--param max-goto-duplication-insns=3"
+      },
+      {
+        "name": "param_tracer_min_branch_probability_feedback",
+        "value": "--param tracer-min-branch-probability-feedback=68"
+      },
+      {
+        "name": "param_max_cse_insns",
+        "value": "--param max-cse-insns=5"
+      },
+      {
+        "name": "param_slp_max_insns_in_bb",
+        "value": "--param slp-max-insns-in-bb=1938"
+      },
+      {
+        "name": "param_scev_max_expr_complexity",
+        "value": "--param scev-max-expr-complexity=14"
+      },
+      {
+        "name": "param_max_last_value_rtl",
+        "value": "--param max-last-value-rtl=17897"
+      },
+      {
+        "name": "param_max_cselib_memory_locations",
+        "value": "--param max-cselib-memory-locations=815"
+      }
+    ]
+  ]
+}

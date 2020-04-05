@@ -1,28 +1,27 @@
 import:
-  # can replace gcc version with any of: 4-7-0, 4-9-0, 5-3-0, 7-1-0
   optimizer.gcc.7-1-0:
     include_knobs:
-      - param.*
-      - arch.*
-      - base.*
+    - param.*
+    - arch.*
+    - base.*
     exclude_knobs:
-      - arch_arm_mfpu_neon
-      - param_sccvn_max_scc_size
-      - param_lto_partitions
-      - bool_wpa
-      - param_graphite_max_bbs_per_function
-
+    - arch_arm_mfpu_neon
+    - param_sccvn_max_scc_size
+    - param_lto_partitions
+    - bool_wpa
+    - param_graphite_max_bbs_per_function
 global_settings:
   min_baseline_samples: 5
   min_samples_per_config: 2
-
 domain:
   common:
     metrics:
       shell.t_metric:
         sample_script: cat /tmp/t_metric
         aggregated: false
-
-    include_metrics: [shell.*]
-    plugins: [libshellplugin.so]
+    include_metrics:
+    - shell.*
+    plugins:
+    - libshellplugin.so
     target: shell.t_metric:max
+    baseline_config: ./optimizer_report.json
