@@ -44,6 +44,9 @@ pipeline {
 
                     // run optimizer experiment
                     sh label: 'Run Optimizer', returnStdout: true, script: "./docker_run.sh"
+                    // uncomment to output debug log to Jenkins console
+                    // sh label: 'optimizer debug log', returnStdout: true, script: 'cat $(ls -1 ~/.concertio/*.log | tail -1) | grep "Err"'
+
 
                     // extract results
                     env.RESULTS_JSON_FILE = sh (label: 'Extract Results', returnStdout: true, script: './locate_results_file.sh').trim()

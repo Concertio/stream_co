@@ -1,4 +1,4 @@
-FROM us.gcr.io/concertio-devel/optimizer-studio-buster:2.7.0-1 as base
+FROM us.gcr.io/concertio-devel/optimizer-studio-buster:2.8.0-1 as base
 LABEL author="Tomer Paz. Concertio 2020"
 
 # install build and other tools required for compile flag testing
